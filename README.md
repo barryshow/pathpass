@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PathPass｜途照
 
-## Getting Started
+PathPass｜途照是一个面向中文用户的全球身份路径信息工具，整理发达国家和高收入地区的长期居留、永居、入籍、护照和签证路径，帮助用户根据个人背景初步判断适合探索的合法路径。
 
-First, run the development server:
+## 当前版本
+
+这是首版静态内容版本：
+
+- Next.js App Router + TypeScript + Tailwind CSS。
+- 首页展示全部国家 / 地区概览。
+- 每个国家 / 地区有独立详情页：`/countries/[slug]`。
+- 内容数据暂存在 `lib/countries.ts`。
+- 后续可迁移到 Supabase 作为内容后台。
+
+## 功能范围
+
+当前包含：
+
+- 发达国家 / 高收入地区概览卡片。
+- 路径类型分类：
+  - 留学转永居
+  - 技术移民
+  - 雇主担保
+  - 高技能人才签证
+  - 创业 / 投资路径
+  - 数字游民签证
+  - 长期居留转永居
+  - 入籍路径
+- 国家详情页：
+  - 国家 / 地区概览
+  - 可探索身份路径
+  - 适合人群
+  - 长期居留 / 永居概览
+  - 入籍 / 护照概览
+  - 具体要求核验清单
+  - 数据来源名称
+
+## 数据口径
+
+首版按以下来源建立内容结构：
+
+- 各国移民、内政、司法或签证主管部门
+- 各国外交部、签证与领事服务页面
+- OECD International Migration Outlook
+- IMF advanced economies classification
+- UN M49 regional classification
+
+注意：本项目用于信息整理和路径初筛，不构成移民、法律、税务或投资建议。正式申请前必须核验官方文件，并咨询持牌专业人士。
+
+## 本地开发
+
+安装依赖：
+
+```bash
+npm install
+```
+
+启动开发服务器：
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+默认访问：
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+如果 3000 端口被占用，Next.js 会自动使用下一个可用端口。
 
-## Learn More
+## 常用命令
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run lint
+npm run build
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 项目结构
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+app/
+  countries/[slug]/page.tsx   国家 / 地区详情页
+  globals.css                  全局样式
+  layout.tsx                   根布局和 metadata
+  page.tsx                     首页概览
+lib/
+  countries.ts                 国家 / 地区与路径数据
+```
 
-## Deploy on Vercel
+## 上线步骤
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 1. 推送到 GitHub
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+创建 GitHub 仓库后，添加远程地址并推送：
+
+```bash
+git remote add origin <your-github-repo-url>
+git branch -M main
+git push -u origin main
+```
+
+如果使用 GitHub CLI，也可以运行：
+
+```bash
+gh repo create pathpass --private --source=. --remote=origin --push
+```
+
+### 2. 部署到 Vercel
+
+在 Vercel 中选择 GitHub 仓库：
+
+- Framework Preset: Next.js
+- Build Command: `npm run build`
+- Output Directory: 由 Vercel 自动识别
+- Install Command: `npm install`
+
+首版静态内容不需要环境变量。
+
+### 3. 后续接入 Supabase
+
+建议 Supabase 后续用于：
+
+- 国家 / 地区表
+- 路径类型表
+- 项目级要求表
+- 来源链接和更新时间
+- 管理端内容更新
+
+首版上线可以先不接 Supabase，等静态版确认信息结构后再迁移数据。
