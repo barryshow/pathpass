@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { countries, pathwayTypes, regions } from "@/lib/countries";
+import { countries, pathwayTypes, regions } from "@/lib/data";
 
 const stats = [
   { label: "发达经济体 / 地区", value: `${countries.length}` },
-  { label: "身份路径类型", value: `${pathwayTypes.length}` },
+  { label: "具体可申请项目", value: `${countries.reduce((sum, c) => sum + c.programs.length, 0)}` },
   { label: "区域覆盖", value: `${regions.length}` },
 ];
 
@@ -80,11 +80,15 @@ export default function Home() {
           </p>
         </div>
         <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          {pathwayTypes.map((pathway) => (
-            <div className="rounded-3xl bg-white p-5 font-bold text-sky-950 shadow-sm ring-1 ring-sky-900/10" key={pathway}>
-              {pathway}
-            </div>
-          ))}
+          {pathwayTypes.map((pathway) => {
+            const count = countries.reduce((sum, c) => sum + c.programs.filter(p => p.category === pathway).length, 0);
+            return (
+              <div className="rounded-3xl bg-white p-5 shadow-sm ring-1 ring-sky-900/10" key={pathway}>
+                <p className="font-bold text-sky-950">{pathway}</p>
+                <p className="mt-1 text-sm text-slate-500">{count} 个具体项目</p>
+              </div>
+            );
+          })}
         </div>
       </section>
 
@@ -95,7 +99,7 @@ export default function Home() {
               <p className="text-sm font-bold uppercase tracking-[0.26em] text-sky-700">Country explorer</p>
               <h2 className="mt-3 text-3xl font-black tracking-tight sm:text-4xl">发达国家与高收入地区概览</h2>
               <p className="mt-4 text-base leading-7 text-slate-700">
-                点击卡片进入详情页，查看该国家 / 地区的路径概览、具体要求核验清单、长期居留 / 入籍说明和数据来源。
+                点击卡片进入详情页，查看该国家 / 地区的路径概览、具体项目、要求核验和数据来源。
               </p>
             </div>
             <div className="rounded-3xl bg-blue-950 p-5 text-sm leading-6 text-blue-100 lg:max-w-sm">
@@ -126,20 +130,23 @@ export default function Home() {
                       <p className="mt-1 text-sm font-semibold text-slate-500">{country.englishName}</p>
                     </div>
                     <span className="rounded-full bg-sky-50 px-3 py-1 text-sm font-black text-sky-800 ring-1 ring-sky-100">
-                      {country.pathways.length} 类
+                      {country.programs.length} 项
                     </span>
                   </div>
                   <p className="mt-4 line-clamp-3 min-h-[5.25rem] leading-7 text-slate-700">{country.overview}</p>
                   <div className="mt-5 flex flex-wrap gap-2">
-                    {country.pathways.slice(0, 4).map((pathway) => (
-                      <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-700" key={pathway}>
-                        {pathway}
-                      </span>
-                    ))}
+                    {country.pathwayCategories.slice(0, 4).map((category) => {
+                      const count = country.programs.filter(p => p.category === category).length;
+                      return (
+                        <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-700" key={category}>
+                          {category}({count})
+                        </span>
+                      );
+                    })}
                   </div>
                   <div className="mt-6 flex items-center justify-between border-t border-sky-900/10 pt-4 text-sm font-black text-sky-700">
-                    <span>查看具体要求</span>
-                    <span className="transition group-hover:translate-x-1">→</span>
+                    <span>查看具体项目</span>
+                    <span className="transition group-hover:translate-x-1">&rarr;</span>
                   </div>
                 </article>
               </Link>
