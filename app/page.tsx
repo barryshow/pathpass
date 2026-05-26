@@ -1,30 +1,13 @@
 import Link from "next/link";
-import { fetchCountries, fetchRegions, pathwayTypes } from "@/lib/supabase-queries";
+import { countries, pathwayTypes, regions } from "@/lib/data";
 import { CountryFilter } from "./CountryFilter";
 
-export default async function Home({
-  searchParams,
-}: {
-  searchParams: Promise<{ pathway?: string; region?: string }>;
-}) {
-  const countries = await fetchCountries();
-  const regions = await fetchRegions();
-  const { pathway, region } = await searchParams;
-
+export default function Home() {
   const stats = [
     { label: "发达经济体 / 地区", value: `${countries.length}` },
     { label: "具体可申请项目", value: `${countries.reduce((sum, c) => sum + c.programs.length, 0)}` },
     { label: "区域覆盖", value: `${regions.length}` },
   ];
-
-  const activePathway = pathway && pathwayTypes.includes(pathway as never) ? pathway : null;
-  const activeRegion = region && regions.includes(region) ? region : null;
-
-  const filteredCountries = countries.filter((c) => {
-    if (activePathway && !c.pathwayCategories.includes(activePathway as never)) return false;
-    if (activeRegion && c.region !== activeRegion) return false;
-    return true;
-  });
 
   return (
     <main className="min-h-screen overflow-hidden bg-sky-50 text-slate-950">
@@ -97,25 +80,14 @@ export default async function Home({
             点击下方路径类型，过滤显示相关国家 / 地区。每个国家详情页也会标记适用路径，并提供正式申请前需要核验的要求清单。
           </p>
         </div>
-        <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-4" id="pathway-cards">
           {pathwayTypes.map((pathway) => {
             const count = countries.reduce((sum, c) => sum + c.programs.filter(p => p.category === pathway).length, 0);
-            const isActive = activePathway === pathway;
             return (
-              <a
-                className={`rounded-3xl p-5 shadow-sm ring-1 transition hover:-translate-y-0.5 hover:shadow-md ${
-                  isActive
-                    ? "bg-sky-700 text-white ring-sky-600"
-                    : "bg-white text-sky-950 ring-sky-900/10 hover:bg-sky-100"
-                }`}
-                href={isActive ? "/#countries" : `/?pathway=${encodeURIComponent(pathway)}#countries`}
-                key={pathway}
-              >
-                <p className="font-bold">{pathway}</p>
-                <p className={`mt-1 text-sm ${isActive ? "text-sky-200" : "text-slate-500"}`}>
-                  {count} 个具体项目
-                </p>
-              </a>
+              <div className="rounded-3xl bg-white p-5 shadow-sm ring-1 ring-sky-900/10 pathway-card cursor-pointer hover:bg-sky-100 hover:-translate-y-0.5 transition" data-pathway={pathway} key={pathway}>
+                <p className="font-bold text-sky-950">{pathway}</p>
+                <p className="mt-1 text-sm text-slate-500">{count} 个具体项目</p>
+              </div>
             );
           })}
         </div>
@@ -137,57 +109,9 @@ export default async function Home({
           </div>
 
           <CountryFilter
+            countries={countries}
             regions={regions}
-            activeRegion={activeRegion}
-            activePathway={activePathway}
           />
-
-          <div className="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
-            {filteredCountries.map((country) => (
-              <Link
-                className="group rounded-[2rem] bg-white p-6 shadow-sm ring-1 ring-sky-900/10 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-sky-950/10"
-                href={`/countries/${country.slug}`}
-                key={country.slug}
-              >
-                <article>
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <p className="text-sm font-bold text-sky-700">{country.region}</p>
-                      <h3 className="mt-1 text-2xl font-black tracking-tight text-slate-950">{country.country}</h3>
-                      <p className="mt-1 text-sm font-semibold text-slate-500">{country.englishName}</p>
-                    </div>
-                    <span className="rounded-full bg-sky-50 px-3 py-1 text-sm font-black text-sky-800 ring-1 ring-sky-100">
-                      {country.programs.length} 项
-                    </span>
-                  </div>
-                  <p className="mt-4 line-clamp-3 min-h-[5.25rem] leading-7 text-slate-700">{country.overview}</p>
-                  <div className="mt-5 flex flex-wrap gap-2">
-                    {country.pathwayCategories.slice(0, 4).map((category) => {
-                      const count = country.programs.filter(p => p.category === category).length;
-                      return (
-                        <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-700" key={category}>
-                          {category}({count})
-                        </span>
-                      );
-                    })}
-                  </div>
-                  <div className="mt-6 flex items-center justify-between border-t border-sky-900/10 pt-4 text-sm font-black text-sky-700">
-                    <span>查看具体项目</span>
-                    <span className="transition group-hover:translate-x-1">&rarr;</span>
-                  </div>
-                </article>
-              </Link>
-            ))}
-          </div>
-
-          {filteredCountries.length === 0 && (
-            <div className="mt-8 rounded-[2rem] bg-white p-8 text-center shadow-sm ring-1 ring-sky-900/10">
-              <p className="text-lg font-bold text-slate-700">没有匹配的国家 / 地区</p>
-              <a className="mt-3 inline-flex rounded-full bg-sky-600 px-5 py-2 text-sm font-bold text-white transition hover:bg-sky-500" href="/">
-                清除筛选条件
-              </a>
-            </div>
-          )}
         </div>
       </section>
 
