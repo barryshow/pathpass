@@ -94,6 +94,7 @@ export const hongKong: CountryData = {
       ],
       targetAudience: ["长期通常居住者"],
       processingTime: "4-6 周",
+      officialLink: "https://www.immd.gov.hk/eng/services/right-of-abode.html",
       keyNotes: ["通常居住定义灵活，不需每年居住满指定天数", "但需以香港为生活重心", "永久居民享有选举权和公职资格"],
       status: "open",
       lastVerified: "2026-05",
