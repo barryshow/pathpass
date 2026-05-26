@@ -114,7 +114,7 @@ export const denmark: CountryData = {
       ],
       targetAudience: ["长期居住并融入者", "丹麦语达标者"],
       processingTime: "12-18 个月",
-      officialLink: "https://nyidanmark.dk",
+      officialLink: "https://nyidanmark.dk/en-GB/you-want-to-apply",
       keyNotes: ["2025年新政将年限降至6年但仍需公民考试和语言", "需放弃原国籍", "公民知识考试涵盖丹麦历史和文化"],
       status: "pending_changes",
       lastVerified: "2026-05",
