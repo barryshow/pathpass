@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { countries, getCountryBySlug } from "@/lib/data";
+import { fetchAllSlugs, fetchCountryBySlug } from "@/lib/supabase-queries";
 import { groupProgramsByCategory } from "@/lib/types";
 import { ProgramCard } from "@/app/components/ProgramCard";
 
 export async function generateStaticParams() {
-  return countries.map((country) => ({ slug: country.slug }));
+  const slugs = await fetchAllSlugs();
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -14,7 +15,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const country = getCountryBySlug(slug);
+  const country = await fetchCountryBySlug(slug);
 
   if (!country) {
     return {
@@ -34,7 +35,7 @@ export default async function CountryPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const country = getCountryBySlug(slug);
+  const country = await fetchCountryBySlug(slug);
 
   if (!country) {
     notFound();

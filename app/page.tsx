@@ -1,13 +1,14 @@
 import Link from "next/link";
-import { countries, pathwayTypes, regions } from "@/lib/data";
+import { fetchCountries, fetchRegions, pathwayTypes } from "@/lib/supabase-queries";
 
-const stats = [
-  { label: "发达经济体 / 地区", value: `${countries.length}` },
-  { label: "具体可申请项目", value: `${countries.reduce((sum, c) => sum + c.programs.length, 0)}` },
-  { label: "区域覆盖", value: `${regions.length}` },
-];
-
-export default function Home() {
+export default async function Home() {
+  const countries = await fetchCountries();
+  const regions = await fetchRegions();
+  const stats = [
+    { label: "发达经济体 / 地区", value: `${countries.length}` },
+    { label: "具体可申请项目", value: `${countries.reduce((sum, c) => sum + c.programs.length, 0)}` },
+    { label: "区域覆盖", value: `${regions.length}` },
+  ];
   return (
     <main className="min-h-screen overflow-hidden bg-sky-50 text-slate-950">
       <section className="relative border-b border-sky-900/10 bg-[radial-gradient(circle_at_top_left,#93c5fd,transparent_32%),linear-gradient(135deg,#eff6ff_0%,#dbeafe_48%,#f8fafc_100%)]">
