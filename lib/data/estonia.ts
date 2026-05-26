@@ -56,7 +56,7 @@ export const estonia: CountryData = {
         { dimension: "其他", value: "健康保险 + 住宿证明", note: "需覆盖在爱沙尼亚期间" },
       ],
       targetAudience: ["远程工作者", "数字游民", "科技从业者"],
-      officialLink: "https://e-resident.gov.ee/digital-nomad-visa",
+      officialLink: "https://www.e-resident.gov.ee",
       processingTime: "1-2 个月",
       keyNotes: ["短期签证最长1年，长期居留许可最长5年", "数字游民签证与e-residency不同", "e-residency不等于居留权"],
       status: "open",

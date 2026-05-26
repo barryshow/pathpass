@@ -54,7 +54,7 @@ export const puertoRico: CountryData = {
         { dimension: "年限", value: "成为波多黎各税务居民并维持", note: "需满足税务居住规则" },
       ],
       targetAudience: ["美国公民或绿卡持有人", "高收入者", "税务规划者"],
-      officialLink: "https://www.prmerge.com",
+      officialLink: "https://www.ddec.pr.gov/en/",
       processingTime: "税务激励约3-6个月（非移民审批）",
       keyNotes: ["Act 60 不提供移民身份", "仅适用于美国公民或绿卡持有人", "4%固定税率+0%联邦资本利得税（出口服务）", "是税务激励而非移民路径"],
       status: "open",

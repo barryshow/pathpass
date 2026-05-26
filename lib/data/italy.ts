@@ -90,7 +90,7 @@ export const italy: CountryData = {
         { dimension: "其他", value: "不从事意大利本地就业", note: "投资者签证持有人可持有投资但不从事本地就业" },
       ],
       targetAudience: ["高净值投资者", "有大额投资预算者"],
-      officialLink: "https://investitur.it",
+      officialLink: "https://www.altalex.com/guide/all-investor-visa-italy",
       processingTime: "1-2 个月",
       keyNotes: ["投资者签证门槛较高", "2年居留许可可续签", "投资需维持5年"],
       status: "open",

@@ -16,7 +16,7 @@ const programs: ImmigrationProgram[] = [
       { dimension: "年限", value: "雇主合同至少2年", note: "" },
     ],
     targetAudience: ["IT与软件工程师", "医疗专业人员(医生/护士)", "金融与数据分析人才", "工程师"],
-    officialLink: "https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Critical-Skills-Employment-Permit/",
+    officialLink: "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/",
     processingTime: "约4–8周",
     keyNotes: [
       "CSEP持有2年后可自动申请Stamp 4长期居留（无需雇主担保）",
@@ -65,7 +65,7 @@ const programs: ImmigrationProgram[] = [
       { dimension: "其他", value: "雇主须50%以上EEA员工（部分豁免）", note: "" },
     ],
     targetAudience: ["有爱尔兰雇主offer的非紧缺职业从业者", "中等薪资专业人士", "餐饮与服务业专业人士"],
-    officialLink: "https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/General-Employment-Permit/",
+    officialLink: "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/",
     processingTime: "约4–8周",
     keyNotes: [
       "薪资须达到€34,000门槛（特定职业降至€30,000）",
@@ -89,7 +89,7 @@ const programs: ImmigrationProgram[] = [
       { dimension: "收入", value: "研究机构须提供合理薪资", note: "无固定最低门槛但须合理" },
     ],
     targetAudience: ["研究人员", "博士后", "高校科研人员", "实验室研究员"],
-    officialLink: "https://enterprise.gov.ie/en/What-We-Do/Workplace-and-Skills/Employment-Permits/Researcher-Employment-Permit/",
+    officialLink: "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/",
     processingTime: "约4–6周",
     keyNotes: [
       "Stamp 1A仅限在指定研究机构从事研究工作",

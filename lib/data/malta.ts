@@ -39,7 +39,7 @@ export const malta: CountryData = {
         { dimension: "其他", value: "健康保险 + 住宿证明 + 无犯罪", note: "需覆盖在马耳他期间" },
       ],
       targetAudience: ["远程工作者", "数字游民", "英语环境偏好者"],
-      officialLink: "https://nomad.mt",
+      officialLink: "https://residencymalta.gov.mt",
       processingTime: "1-2 个月",
       keyNotes: ["Nomad Visa最长3年（可续签1次）", "英语环境友好", "不计入长期居留年限"],
       status: "open",
