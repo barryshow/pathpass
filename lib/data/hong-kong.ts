@@ -3,7 +3,7 @@ import { defaultDevelopedScope, defaultCaution, makeDefaultSources } from "./hel
 
 export const hongKong: CountryData = {
   slug: "hong-kong",
-  country: "中国香港",
+  country: "香港地区",
   englishName: "Hong Kong SAR",
   region: "亚洲",
   overview: "输入人才、优秀人才、专业人士就业和投资/创业路径清晰，永居以通常居住为核心。2022年底新增Top Talent Pass Scheme面向全球高薪人才。",

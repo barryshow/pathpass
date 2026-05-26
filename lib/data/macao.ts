@@ -3,7 +3,7 @@ import { defaultDevelopedScope, defaultCaution, makeDefaultSources } from "./hel
 
 export const macao: CountryData = {
   slug: "macao",
-  country: "中国澳门",
+  country: "澳门地区",
   englishName: "Macao SAR",
   region: "亚洲",
   overview: "身份路径以本地就业、专业资格、投资或家庭联系为主，永久居民资格与通常居住7年为核心。澳门身份制度与香港类似但有本地特色。",

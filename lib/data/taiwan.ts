@@ -3,7 +3,7 @@ import { defaultDevelopedScope, defaultCaution, makeDefaultSources } from "./hel
 
 export const taiwan: CountryData = {
   slug: "taiwan",
-  country: "中国台湾",
+  country: "台湾地区",
   englishName: "Taiwan",
   region: "亚洲",
   overview: "就业金卡、专业工作、创业和永久居留路径适合科技、文化、教育和远程专业人士。入籍涉及归化条件较严格。",
