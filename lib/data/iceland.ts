@@ -40,6 +40,7 @@ export const iceland: CountryData = {
       ],
       targetAudience: ["冰岛应届毕业生"],
       officialLink: "https://utl.is",
+      keyNotes: ["毕业后求职许可较短", "需快速找到雇主offer"],
       status: "open",
       lastVerified: "2026-05",
     },

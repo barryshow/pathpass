@@ -40,6 +40,7 @@ export const slovenia: CountryData = {
       ],
       targetAudience: ["斯洛文尼亚应届毕业生"],
       officialLink: "https://e-uprava.gov.si",
+      keyNotes: ["毕业后可申请求职许可", "找到工作后转为工作居留"],
       status: "open",
       lastVerified: "2026-05",
     },
