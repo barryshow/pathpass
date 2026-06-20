@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "PathPass｜途照",
   description: "面向中文用户的全球身份路径信息工具，整理长期居留、永居、入籍、护照和签证路径。",
+  metadataBase: new URL("https://pathpass.barryshow.net"),
 };
 
 export default function RootLayout({

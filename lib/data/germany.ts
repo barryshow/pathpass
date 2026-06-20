@@ -139,11 +139,11 @@ const germanyPrograms: ImmigrationProgram[] = [
     id: "de-citizenship",
     name: "入籍",
     englishName: "German Citizenship (Einbürgerung)",
-    summary: "2024年新入籍法大幅降低年限要求，一般5年（融入突出3年），允许双重国籍。",
+    summary: "2024年新入籍法大幅降低年限要求，一般5年（此前为8年），允许双重国籍。",
     category: "入籍路径",
     minRequirements: [
-      { dimension: "年限", value: "一般5年；融入突出3年", note: "2024新法，此前为8-15年" },
-      { dimension: "语言等级", value: "德语B1（3年路径需C1）" },
+      { dimension: "年限", value: "一般5年", note: "此前为8-15年，2024年新法缩短" },
+      { dimension: "语言等级", value: "德语B1" },
       { dimension: "其他", value: "无犯罪；经济自立；公民测试" },
     ],
     targetAudience: ["已在德国合法居留5年+", "德语B1以上", "经济自立无犯罪"],
@@ -151,7 +151,7 @@ const germanyPrograms: ImmigrationProgram[] = [
     processingTime: "6-12个月",
     keyNotes: [
       "2024年6月新法：允许双重国籍（此前大多需放弃原国籍）",
-      "年限从8年降至5年，融入突出降至3年",
+      "年限从8年降至5年",
       "配偶和子女可同步申请",
     ],
     status: "open",
@@ -170,7 +170,7 @@ export const germany: CountryData = {
   programs: germanyPrograms,
   bestFor: ["理工/医疗/IT紧缺行业", "能获得德国雇主offer", "可学习德语", "学历高且薪资达标"],
   residency: "蓝卡和技术就业可在满足薪资、缴费和语言条件后申请长期居留。蓝卡21-27个月，一般4年。",
-  citizenship: "2024年新入籍法：一般5年（融入突出3年），允许双重国籍，德语B1，公民测试。",
+  citizenship: "2024年新入籍法：一般5年（此前为8年），允许双重国籍，德语B1，公民测试。",
   caution: defaultCaution,
   sourceNames: makeDefaultSources(["Make it in Germany", "Federal Office for Migration and Refugees (BAMF)"]),
 };

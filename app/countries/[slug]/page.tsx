@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { fetchAllSlugs, fetchCountryBySlug } from "@/lib/supabase-queries";
+import { fetchAllSlugs, fetchCountryBySlug } from "@/lib/queries";
 import { groupProgramsByCategory } from "@/lib/types";
 import { ProgramCard } from "@/app/components/ProgramCard";
 

@@ -6,7 +6,7 @@ export const croatia: CountryData = {
   country: "克罗地亚",
   englishName: "Croatia",
   region: "欧洲",
-  overview: "2023年加入欧盟，提供工作、学习、数字游民和长期居留路径，适合低成本欧洲基地规划。数字游民签证为该国特色项目。",
+  overview: "2013年加入欧盟，提供工作、学习、数字游民和长期居留路径，适合低成本欧洲基地规划。数字游民签证为该国特色项目。",
   developedScope: defaultDevelopedScope,
   pathwayCategories: ["雇主担保", "数字游民签证", "留学转永居", "长期居留转永居", "入籍路径"],
   programs: [
