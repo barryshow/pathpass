@@ -1,0 +1,591 @@
+
+<!doctype html>
+<html lang="zh-Hant-TW" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />	
+    <title>移民署中文網-公告資訊 </title>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!-- slick輪播 -->
+    <link rel="stylesheet" href="/dataWWW/vendor/slick/slick.css">
+	<!-- fontello -->
+    <link rel="stylesheet" href="/dataWWW/vendor/fontello/css/fontello.css">	
+    <!-- hyUI -->
+    <link rel="stylesheet" href="/dataWWW/css/animate.min.css">
+    <link rel="stylesheet" href="/dataWWW/css/hyui.css">
+    <link rel="stylesheet" href="/dataWWW/css/jStyle.css">
+
+                        <meta name="DC.DataType" content="Text"/>
+                        <meta name="DC.Description" content="公告資訊"/>
+                        <meta name="DC.Title" content="公告資訊"/>
+                        <meta name="DC.Publisher" content="內政部移民署 A01050000A"/>
+                        <meta name="DC.Source" content="內政部移民署 A01050000A"/>
+                        <meta name="DC.DataFormat" content="text/html"/>
+                        <meta name="DC.subjectAndKeywords" content="公告資訊"/>
+                        <meta name="DC.Language" content="zh-tw"/>
+                        <meta name="DC.DataIdentifier" content="2.16.886.101.20003.20001.20057"/>
+                        <meta name="DC.Contributor" content="內政部移民署 A01050000A"/>
+                        <meta name="DC.Creative" content="內政部移民署 A01050000A"/>
+                        <meta name="DC.productionDates" content="2022/7/5 上午 10:21:14"/>
+                        <meta name="DC.Rights" content="內政部移民署 A01050000A"/>
+
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "NewsArticle",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://www.immigration.gov.tw/"
+            },
+            "headline": "公告資訊",
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://www.immigration.gov.tw/media/34747/logo.png",
+                "width": "400",
+                "height": "100"
+            },
+            "datePublished": "2018-04-09 14:37:22",
+            "dateModified": "2025-09-01 09:27:26",
+            "author": {
+                "@type": "Organization",
+                "name": "中華民國內政部移民署"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "中華民國內政部移民署",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://www.immigration.gov.tw/media/34747/logo.png",
+                    "width": "100",
+                    "height": "25"
+                }
+            },
+            "description": "公告資訊"
+        }
+    </script>
+	
+<link rel="shortcut icon" href="/dataWWW/images/favicon.ico">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-RBPRSKGS3D" integrity="sha384-Y4bDLpvYVDxCbGoBLCzynE9YzoUaRxlV4GPcTD5U41cT94We6qki/zhWTaG3Xoye" crossorigin="anonymous"></script>-->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RBPRSKGS3D"  crossorigin="anonymous"></script>
+<script nonce="googletag0401">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RBPRSKGS3D');
+</script>
+
+</head>
+<body>
+    <a class="goCenter" href="#center" tabindex="1">按 Enter 到主內容區</a>
+    <!-- wrapper 最大寬度 -->
+    <div class="wrapper">
+        
+    <header class="header">
+        <div class="container">
+            <a class="accesskey" href="#aU" id="aU" accesskey="U" title="WebTitle" tabindex="2">:::</a>
+            
+
+<nav class="navigation">
+        <ul>
+        </ul>
+        <ul>
+					<li><a href="/6614/網站導覽/" >網站導覽</a></li>
+					<li><a href="https://dis.immigration.gov.tw/apply1.aspx?xdurl=poll" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">問卷調查</a></li>
+					<li><a href="/5475/" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">English</a></li>
+					<li><a href="/7072/" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">Việt Nam</a></li>
+					<li><a href="/7096/" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">Indonesia</a></li>
+					<li><a href="/6916/" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">ประเทศไทย</a></li>
+					<li><a href="/7120/" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">Philippines</a></li>
+					<li><a href="/7003/" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">Cambodia</a></li>
+					<li><a href="/" >回首頁</a></li>
+					<li><a href="https://bossmail.immigration.gov.tw/mail-box/mail.jsp" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">署長信箱</a></li>
+					<li><a href="https://www.immigration.gov.tw/5382/5385/7445/7535/380662/380665" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">人口販運檢舉</a></li>
+					<li><a href="https://www.immigration.gov.tw/5382/5385/7445/392097/" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">打詐專區</a></li>
+					<li><a href="/6614/70395/" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">雙語詞彙</a></li>
+					<li><a href="https://www.immigration.gov.tw/22913" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">兒童網</a></li>
+        </ul>
+</nav>
+<h1>
+    <a href="/5382"><img src="/media/34747/logo.png" alt="中華民國內政部移民署全球資訊網"/></a>
+</h1>
+
+<div class="search">
+<form class="form_inline" id="frmsearch" action="https://www.immigration.gov.tw/5382/6614/167614/" method="get" target="_self" >
+<div class="s_form_grp">
+<label for="q">搜尋:</label>
+<input name="q" id="q" type="text" placeholder="請輸入文字" accesskey="S" />
+
+</div>
+<div class="s_btn_grp"><input name="btnsearch" id="btnsearch" type="submit" value="查詢" title="查詢" />
+<input id="btnadvsearch" type="submit" value="進階搜尋" title="將另開視窗顯示進階搜尋" />
+</div>
+</form>
+<div class="keywordHot">
+<ul>
+<li><a id="hotlink1" href="#" title="將另開視窗顯示網路申請入台證查詢結果">網路申請入台證</a></li>
+</ul>
+</div>
+
+</div>
+
+<div id="iframewrapper" class="iframewrapper" title="全站搜尋"></div>
+<script nonce="immisrh0401">
+	function closesearch() {
+		var iframewrapper = document.getElementById("iframewrapper");
+		iframewrapper.style.display = "none";
+		iframewrapper.innerHTML = "";
+	}
+	function search(input) {
+		var iframewrapper = document.getElementById("iframewrapper");
+		if (input.value.length < 1) {
+			iframewrapper.style.display = "none";
+			iframewrapper.innerHTML = "";
+		} else {
+			iframewrapper.style.display = "block";
+			iframewrapper.innerHTML = "<div class=\"closeiframe\"><a onClick=\"closesearch()\" onKeyPress=\"closesearch()\" style=\"cursor:pointer\"><img src=\"/media/00/searchClose.png\" alt=\"關閉視窗\" /></a></div><iframe title=\"全站檢索\" class=\"iframeweb\" src=\"https://www.immigration.gov.tw/5382/6614/167614/none?q=" + input.value + "\"></iframe>";
+			$(window).on("keyup", function (e) {
+				if (e.which == 27) {
+					closesearch();
+				}
+			})
+		}  
+	}
+</script>
+
+<noscript>
+    您的瀏覽器不支援JavaScript語法，JavaScript語法並不影響內容的陳述。您可使用按鍵盤上的Ctrl鍵+ (+)鍵放大/(-)鍵縮小來改變字型大小；回到上一頁可使用瀏覽器提供的 Alt+左方向鍵(←) 快速鍵功能；列印可使用瀏覽器提供的(Ctrl+P)功能。
+</noscript>
+<nav class="menu">
+        <ul>
+                <li>
+                    <a href="/5385/5388/">關於本署</a>
+                        <ul>
+                                <li><a href="/5385/5388/7166/">組織架構與業務職掌</a></li>
+                                <li><a href="/5385/5388/7169/">沿革與願景</a></li>
+                                <li><a href="/5385/5388/7172/">首長簡介</a></li>
+                                <li><a href="/5385/5388/7175/">業務內容</a></li>
+                                <li><a href="/5385/5388/7178/">重大政策</a></li>
+                                <li><a href="/5385/5388/7181/">聯絡資訊</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="/5385/7229/">公告資訊</a>
+                        <ul>
+                                <li><a href="/5385/7229/7238/">新聞訊息</a></li>
+                                <li><a href="/5385/7229/7232/">行政公告</a></li>
+                                <li><a href="/5385/7229/7241/">徵才消息</a></li>
+                                <li><a href="/5385/7229/7235/">法案動態</a></li>
+                                <li><a href="/5385/7229/147023/">活動訊息</a></li>
+                                <li><a href="/5385/7229/153324/">即時新聞澄清</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="/5385/7244/">申辦服務</a>
+                        <ul>
+                                <li><a href="/5385/7244/7247/">線上申辦</a></li>
+                                <li><a href="/5385/7244/7250/">申辦須知</a></li>
+                                <li><a href="/5385/7244/7341/">申請進度查詢</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="/5385/7344/">業務統計</a>
+                        <ul>
+                                <li><a href="/5385/7344/7347/">公務統計報表程式</a></li>
+                                <li><a href="/5385/7344/7350/">統計資料</a></li>
+                                <li><a href="/5385/7344/70395/">移民統計主題專區</a></li>
+                                <li><a href="/5385/7344/59452/">統計資料歷史資料區</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="/5385/7353/">出版品與影音</a>
+                        <ul>
+                                <li><a href="/5385/7353/7356/">入出國及移民法令彙編專區</a></li>
+                                <li><a href="/5385/7353/7359/">出版品一覽</a></li>
+                                <li><a href="/5385/7353/7362/">研究報告</a></li>
+                                <li><a href="/5385/7353/7365/">移民雙月刊</a></li>
+                                <li><a href="/5385/7353/51883/">影片專區</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="/5385/7383/">政府資訊公開</a>
+                        <ul>
+                                <li><a href="/5385/7383/374128/">政府資訊公開總覽</a></li>
+                                <li><a href="/5385/7383/395998/">法律及命令等相關法規</a></li>
+                                <li><a href="/5385/7383/7392/">機關(單位)聯絡方式</a></li>
+                                <li><a href="/5385/7383/7395/">行政指導有關文書</a></li>
+                                <li><a href="/5385/7383/7399/">施政計畫</a></li>
+                                <li><a href="/5385/7383/7412/">預算書、決算書及會計報告</a></li>
+                                <li><a href="/5385/7383/7424/">訴願案件查詢</a></li>
+                                <li><a href="/5385/7383/7427/">採購案決標資料</a></li>
+                                <li><a href="/5385/7383/7436/">支付或接受之補助</a></li>
+                                <li><a href="/5385/7383/7439/">內部控制制度聲明書</a></li>
+                                <li><a href="/5385/7383/236742/">檔案應用專區</a></li>
+                                <li><a href="/5385/7383/289674/">辦理政策宣導相關廣告執行情形</a></li>
+                                <li><a href="/5385/7383/336109/">利衝法身分揭露專區</a></li>
+                                <li><a href="/5385/7383/359270/">本署職場互助教保服務中心財務資訊</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="/5385/7445/">業務專區</a>
+                        <ul>
+                                <li><a href="/5385/7445/237305/">業務專區總覽</a></li>
+                                <li><a href="/5385/7445/211420/">各類人士來臺專區</a></li>
+                                <li><a href="/5385/7445/250283/">消除一切形式種族歧視國際公約(ICERD)專區</a></li>
+                                <li><a href="/5385/7445/7451/">新住民照顧服務專區</a></li>
+                                <li><a href="/5385/7445/7535/">防制人口販運</a></li>
+                                <li><a href="/5385/7445/313011/">性別主流化專區</a></li>
+                                <li><a href="/5385/7445/7621/">跨國境婚姻媒合資訊專區</a></li>
+                                <li><a href="/5385/7445/7749/">移民業務機構管理</a></li>
+                                <li><a href="/5385/7445/78126/">協尋在臺觀光健檢醫美行方不明人士</a></li>
+                                <li><a href="/5385/7445/7810/">陸客來台專區</a></li>
+                                <li><a href="/5385/7445/7826/">廉政園區</a></li>
+                                <li><a href="/5385/7445/281747/">警察消防海巡移民空勤人員醫療照護實施方案專區</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="/5385/396729/">主管法規</a>
+                        <ul>
+                                <li><a href="/5385/396729/396084/">移民署業務相關</a></li>
+                                <li><a href="/5385/396729/396092/">入出境與役政相關</a></li>
+                                <li><a href="/5385/396729/396101/">入出國及移民法相關</a></li>
+                                <li><a href="/5385/396729/396133/">港澳居民入出境相關</a></li>
+                                <li><a href="/5385/396729/396134/">大陸地區人民入出境相關</a></li>
+                                <li><a href="/5385/396729/396135/">人口販運防制法相關</a></li>
+                                <li><a href="/5385/396729/396139/">外國專業人才事務相關</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <a href="/5385/12162/">常見問題</a>
+                        <ul>
+                                <li><a href="/5385/12162/12167/">入出國及移民法</a></li>
+                                <li><a href="/5385/12162/12191/">國人入出境與役政</a></li>
+                                <li><a href="/5385/12162/12194/">大陸地區人民入出境</a></li>
+                                <li><a href="/5385/12162/12197/">外籍人士入出國</a></li>
+                                <li><a href="/5385/12162/12200/">新住民照顧服務</a></li>
+                                <li><a href="/5385/12162/12203/">跨國境婚姻媒合</a></li>
+                                <li><a href="/5385/12162/12206/">居住臺灣地區人民受歧視申訴</a></li>
+                                <li><a href="/5385/12162/12209/">港澳人士入出境</a></li>
+                                <li><a href="/5385/12162/12212/">入出國日期證明</a></li>
+                                <li><a href="/5385/12162/238449/">外來人口統一證號</a></li>
+                                <li><a href="/5385/12162/400798/">大陸地區人民申請定居、回復身分及繳附大陸地區喪失原籍證明</a></li>
+                                <li><a href="/5385/12162/12215/">其他</a></li>
+                        </ul>
+                </li>
+        </ul>
+</nav>
+
+
+        </div>
+    </header>
+<div id="center" class="main innerpage">
+    <!-- classname-->
+    <a class="accesskey" href="#aC" id="aC" accesskey="C" title="內容區">:::</a>
+    <div class="container">        
+        <div class="content">
+            <!-- breadcrumb -->
+            
+    <div class="breadcrumb">
+        <ul>
+                <li>
+現在位置　<a href="/5382" title="首頁">首頁</a>
+                </li>
+                                        <li>公告資訊</li>
+        </ul>
+    </div>
+           
+            <!-- h2 -->
+            <h2>公告資訊</h2>
+            <!-- function -->
+            <div class="function">
+    <ul>
+        <li class="back">
+            <a href="#" id="backBtn0401"  class="icon-left-open">回上一頁</a>
+        </li>
+        <li class="print">
+            <a href="#" id="printBtn0401"  class="icon-print">友善列印</a>
+        </li>
+        <!--<li class="forward">
+            <a href="#" class="icon-mail-alt">轉寄友人</a>
+        </li>-->
+    </ul>
+</div>
+            <!-- social share -->
+            
+<div style="margin:0 0 .5em 0; overflow:hidden; height:60px; clear:both; ">
+<div class="share">
+<ul>
+  <li>
+    <a href="#" 
+       class="share-btn" 
+       data-type="facebook" 
+       title="將另開新視窗到 Share to Facebook" 
+       target="_self" 
+       rel="noopener noreferrer">
+      <img src="/datawww/images/basic/icon_facebook.svg" alt="Share to Facebook">
+    </a>
+  </li>
+  <li>
+    <a href="#" 
+       class="share-btn" 
+       data-type="line" 
+       title="將另開新視窗到 Share to line" 
+       target="_self" 
+       rel="noopener noreferrer">
+      <img src="/datawww/images/basic/icon_line.svg" alt="Share to line">
+    </a>
+  </li>
+  <li>
+    <a href="#" 
+       class="share-btn" 
+       data-type="twitter" 
+       title="將另開新視窗到 Share to twitter" 
+       target="_self" 
+       rel="noopener noreferrer">
+      <img src="/datawww/images/basic/icon_twitter.svg" alt="Share to twitter">
+    </a>
+  </li>
+</ul>
+
+<!--
+<ul>
+<li><a href="javascript: void(window.open('http://www.facebook.com/share.php?u='.concat(encodeURIComponent(location.href)) ));" title="將另開新視窗到 Share to Facebook"  target="_self" rel="noopener noreferrer" ><img src="/datawww/images/basic/icon_facebook.svg" alt="Share to Facebook"></a></li>
+<li><a href="javascript: void(window.open('http://line.naver.jp/R/msg/text/?'.concat($('title').html().trim()).concat('%20').concat(encodeURIComponent(location.href)) ));" title="將另開新視窗到 Share to line"  target="_self" rel="noopener noreferrer" ><img src="/datawww/images/basic/icon_line.svg" alt="Share to line"></a></li>
+<li><a href="javascript: void(window.open('http://twitter.com/home/?status='.concat(encodeURIComponent(document.title)) .concat(' ') .concat(encodeURIComponent(location.href))));" title="將另開新視窗到 Share to twitter"  target="_self" rel="noopener noreferrer" ><img src="/datawww/images/basic/icon_twitter.svg" alt="Share to twitter"></a></li>
+<li><a href="javascript: void(window.open('https://plus.google.com/share?url='.concat(encodeURIComponent(location.href)), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600'));" title="將另開新視窗到 Share to google+"   target="_self" rel="noopener noreferrer" ><img src="/datawww/images/basic/icon_googleplus.svg" alt="Share to google plus"></a></li>
+<li><a href="https://www.immigration.gov.tw/5385/7229/RSS" title="RSS"><img alt="RSS" src="/datawww/images/basic/icon_rss.svg" alt="RSS" width="30px"/></a></li>
+</ul>
+-->
+</div>
+</div>
+
+            
+<!-- NP Start -->
+<section class="np">
+    <ul>
+                <li>
+                    <a href="/5385/7229/7238/">
+                        <span class="num">1</span>
+                        新聞訊息
+                    </a>
+                </li>
+                <li>
+                    <a href="/5385/7229/7232/">
+                        <span class="num">2</span>
+                        行政公告
+                    </a>
+                </li>
+                <li>
+                    <a href="/5385/7229/7241/">
+                        <span class="num">3</span>
+                        徵才消息
+                    </a>
+                </li>
+                <li>
+                    <a href="/5385/7229/7235/">
+                        <span class="num">4</span>
+                        法案動態
+                    </a>
+                </li>
+                <li>
+                    <a href="/5385/7229/147023/">
+                        <span class="num">5</span>
+                        活動訊息
+                    </a>
+                </li>
+                <li>
+                    <a href="/5385/7229/153324/">
+                        <span class="num">6</span>
+                        即時新聞澄清
+                    </a>
+                </li>
+
+    </ul>
+</section>
+<!-- NP End -->
+        </div>
+    </div>
+</div>
+
+
+<section class="fatfooter">
+    <div class="container">
+        <button type="button" name="收合" class="btn btn-fatfooter">收合</button>
+        <nav>
+            <ul>
+                    <li>
+                        <a href="/5385/5388/">關於本署</a>
+                        <ul>
+                                <li><a href="/5385/5388/7166/">組織架構與業務職掌</a></li>
+                                <li><a href="/5385/5388/7169/">沿革與願景</a></li>
+                                <li><a href="/5385/5388/7172/">首長簡介</a></li>
+                                <li><a href="/5385/5388/7175/">業務內容</a></li>
+                                <li><a href="/5385/5388/7178/">重大政策</a></li>
+                                <li><a href="/5385/5388/7181/">聯絡資訊</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/5385/7229/">公告資訊</a>
+                        <ul>
+                                <li><a href="/5385/7229/7238/">新聞訊息</a></li>
+                                <li><a href="/5385/7229/7232/">行政公告</a></li>
+                                <li><a href="/5385/7229/7241/">徵才消息</a></li>
+                                <li><a href="/5385/7229/7235/">法案動態</a></li>
+                                <li><a href="/5385/7229/147023/">活動訊息</a></li>
+                                <li><a href="/5385/7229/153324/">即時新聞澄清</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/5385/7244/">申辦服務</a>
+                        <ul>
+                                <li><a href="/5385/7244/7247/">線上申辦</a></li>
+                                <li><a href="/5385/7244/7250/">申辦須知</a></li>
+                                <li><a href="/5385/7244/7341/">申請進度查詢</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/5385/7344/">業務統計</a>
+                        <ul>
+                                <li><a href="/5385/7344/7347/">公務統計報表程式</a></li>
+                                <li><a href="/5385/7344/7350/">統計資料</a></li>
+                                <li><a href="/5385/7344/70395/">移民統計主題專區</a></li>
+                                <li><a href="/5385/7344/59452/">統計資料歷史資料區</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/5385/7353/">出版品與影音</a>
+                        <ul>
+                                <li><a href="/5385/7353/7356/">入出國及移民法令彙編專區</a></li>
+                                <li><a href="/5385/7353/7359/">出版品一覽</a></li>
+                                <li><a href="/5385/7353/7362/">研究報告</a></li>
+                                <li><a href="/5385/7353/7365/">移民雙月刊</a></li>
+                                <li><a href="/5385/7353/51883/">影片專區</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/5385/7383/">政府資訊公開</a>
+                        <ul>
+                                <li><a href="/5385/7383/374128/">政府資訊公開總覽</a></li>
+                                <li><a href="/5385/7383/395998/">法律及命令等相關法規</a></li>
+                                <li><a href="/5385/7383/7392/">機關(單位)聯絡方式</a></li>
+                                <li><a href="/5385/7383/7395/">行政指導有關文書</a></li>
+                                <li><a href="/5385/7383/7399/">施政計畫</a></li>
+                                <li><a href="/5385/7383/7412/">預算書、決算書及會計報告</a></li>
+                                <li><a href="/5385/7383/7424/">訴願案件查詢</a></li>
+                                <li><a href="/5385/7383/7427/">採購案決標資料</a></li>
+                                <li><a href="/5385/7383/7436/">支付或接受之補助</a></li>
+                                <li><a href="/5385/7383/7439/">內部控制制度聲明書</a></li>
+                                <li><a href="/5385/7383/236742/">檔案應用專區</a></li>
+                                <li><a href="/5385/7383/289674/">辦理政策宣導相關廣告執行情形</a></li>
+                                <li><a href="/5385/7383/336109/">利衝法身分揭露專區</a></li>
+                                <li><a href="/5385/7383/359270/">本署職場互助教保服務中心財務資訊</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/5385/7445/">業務專區</a>
+                        <ul>
+                                <li><a href="/5385/7445/237305/">業務專區總覽</a></li>
+                                <li><a href="/5385/7445/211420/">各類人士來臺專區</a></li>
+                                <li><a href="/5385/7445/250283/">消除一切形式種族歧視國際公約(ICERD)專區</a></li>
+                                <li><a href="/5385/7445/7451/">新住民照顧服務專區</a></li>
+                                <li><a href="/5385/7445/7535/">防制人口販運</a></li>
+                                <li><a href="/5385/7445/313011/">性別主流化專區</a></li>
+                                <li><a href="/5385/7445/7621/">跨國境婚姻媒合資訊專區</a></li>
+                                <li><a href="/5385/7445/7749/">移民業務機構管理</a></li>
+                                <li><a href="/5385/7445/78126/">協尋在臺觀光健檢醫美行方不明人士</a></li>
+                                <li><a href="/5385/7445/7810/">陸客來台專區</a></li>
+                                <li><a href="/5385/7445/7826/">廉政園區</a></li>
+                                <li><a href="/5385/7445/281747/">警察消防海巡移民空勤人員醫療照護實施方案專區</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/5385/396729/">主管法規</a>
+                        <ul>
+                                <li><a href="/5385/396729/396084/">移民署業務相關</a></li>
+                                <li><a href="/5385/396729/396092/">入出境與役政相關</a></li>
+                                <li><a href="/5385/396729/396101/">入出國及移民法相關</a></li>
+                                <li><a href="/5385/396729/396133/">港澳居民入出境相關</a></li>
+                                <li><a href="/5385/396729/396134/">大陸地區人民入出境相關</a></li>
+                                <li><a href="/5385/396729/396135/">人口販運防制法相關</a></li>
+                                <li><a href="/5385/396729/396139/">外國專業人才事務相關</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="/5385/12162/">常見問題</a>
+                        <ul>
+                                <li><a href="/5385/12162/12167/">入出國及移民法</a></li>
+                                <li><a href="/5385/12162/12191/">國人入出境與役政</a></li>
+                                <li><a href="/5385/12162/12194/">大陸地區人民入出境</a></li>
+                                <li><a href="/5385/12162/12197/">外籍人士入出國</a></li>
+                                <li><a href="/5385/12162/12200/">新住民照顧服務</a></li>
+                                <li><a href="/5385/12162/12203/">跨國境婚姻媒合</a></li>
+                                <li><a href="/5385/12162/12206/">居住臺灣地區人民受歧視申訴</a></li>
+                                <li><a href="/5385/12162/12209/">港澳人士入出境</a></li>
+                                <li><a href="/5385/12162/12212/">入出國日期證明</a></li>
+                                <li><a href="/5385/12162/238449/">外來人口統一證號</a></li>
+                                <li><a href="/5385/12162/400798/">大陸地區人民申請定居、回復身分及繳附大陸地區喪失原籍證明</a></li>
+                                <li><a href="/5385/12162/12215/">其他</a></li>
+                        </ul>
+                    </li>
+            </ul>
+        </nav>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <a class="accesskey" href="#aF" id="aF" accesskey="F" title="頁尾區">:::</a>
+        <div class="footer_link">
+            <ul>
+							<li><a href="/media/105892/各單位內部保有及管理個人資料之項目彙整表.pdf" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">保有及管理個人資料</a></li>
+							<li><a href="/6614/6673/15856/" >政府網站資料開放宣告</a></li>
+							<li><a href="/6614/6673/394516/" >隱私權及網站安全政策</a></li>
+            </ul>
+        </div>
+        <div class="footer_info">
+            中華民國內政部移民署 版權所有 © NATIONAL IMMIGRATION AGENCY
+	<p>
+                        <br> 地址：100213臺北市中正區廣州街15號<a href="/5385/5388/7181/7184/7193/" title="本署各服務地址">(本署各服務地址)</a>
+                        <br> 電話：(02)2388-9393
+                        <br> 櫃檯受理服務時間：星期一至星期五 08:00-17:00(櫃檯中午受理案件不休息)
+                        <br> 外來人士在臺生活諮詢服務熱線：國內 1990 國外 886-800-001990。
+	</p>
+        </div>
+        <div class="footer_icon">
+            <span class="update">更新日期:<em>2026/05/26</em></span>
+            <span class="counter">瀏覽人次:<em>160732580</em></span>
+            
+                <a href="https://accessibility.moda.gov.tw/Applications/Detail?category=20250326134003" target="_blank" title="(將另開新視窗到)" rel="noopener noreferrer">
+                    <img src="/dataWWW/images/basic/accessibility.jpg" alt="無障礙標章AA" >
+                </a>
+                    </div>
+    </div>
+</footer>
+
+
+    </div>
+    <a href="javascript:;" class="scrollToTop" title="回頁首">回頁首</a>
+    <script src="/dataWWW/js/jquery-3.7.1.min.js"></script>
+    <script src="/dataWWW/vendor/jquery.easing.min.js"></script>
+    <!-- slick輪播 -->
+    <script type="text/javascript" src="/dataWWW/vendor/slick/slick.js"></script>
+    <!-- slick -->
+    <script src="/dataWWW/vendor/slick/slick-lightbox.js"></script>
+        <script type="text/javascript">
+         $('.cp_slider').slickLightbox({
+             caption: 'caption',
+             useHistoryApi: 'true',
+             lazy: true
+         });
+        </script>
+    <script src="/dataWWW/js/hyui.js"></script>
+    <script src="/dataWWW/js/customize.js"></script>
+</body>
+</html>

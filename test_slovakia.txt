@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="sk">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#0b0c0c">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" lang="sk" content="Ministerstvo vnútra Slovenskej republiky">
+    <meta name="copyright" content="Content © 2007-2026 Ministerstvo vnútra Slovenskej republiky">
+    <meta name="author" content="Ministerstvo vnútra Slovenskej republiky">
+    
+    <title>Pobyt cudzinca, Ministerstvo vnútra Slovenskej republiky</title>
+
+    <link rel="stylesheet" href="/vendor/id-sk/frontend/4/app.min.css">
+    <link rel="stylesheet" href="/2024/css/app.min.css?v=2025-28">
+    
+
+    
+
+    
+    
+</head>
+<body class="govuk-template__body app-template__body minv-front">
+<script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');</script>
+<a class="sr-only sr-only-focusable" href="#hlavny-obsah">Preskocit na hlavný obsah</a>
+<div class="app-whitespace-highlight">
+    <div class="govuk-header__wrapper">
+        <header class="govuk-header" data-module="govuk-header">
+            <div class="govuk-header__container ">
+
+                <div class="idsk-secondary-navigation govuk-width-container">
+                    <div class="idsk-secondary-navigation__header">
+                        <div class="idsk-secondary-navigation__heading">
+                            <div class="idsk-secondary-navigation__heading-title">
+                                <span class="idsk-secondary-navigation__heading-mobile">SK</span>
+                                <span class="idsk-secondary-navigation__heading-desktop">Oficiálna stránka</span>
+
+                                <button class="govuk-button govuk-button--texted--inverse idsk-secondary-navigation__heading-button"
+                                        aria-expanded="false" aria-label="Oficiálna stránka verejnej správy">
+                                    <span class="idsk-secondary-navigation__heading-mobile">e-Gov</span>
+                                    <span class="idsk-secondary-navigation__heading-desktop"><b>verejnej správy SR</b></span>
+                                    <span class="material-icons">arrow_drop_down</span>
+                                </button>
+                            </div>
+                            <div class="idsk-secondary-navigation__body hidden" data-testid="secnav-children">
+                                <div class="idsk-secondary-navigation__text">
+                                    <div>
+                                        <h3 class="govuk-body-s"><b>Doména gov.sk je oficiálna</b></h3>
+                                        <p class="govuk-body-s">Toto je oficiálna webová stránka orgánu verejnej moci
+                                            Slovenskej republiky. Oficiálne stránky využívajú najmä doménu gov.sk. <a
+                                                    class="govuk-link--inverse"
+                                                    href="https://www.slovensko.sk/sk/agendy/agenda/_organy-verejnej-moci"
+                                                    target="_blank">Odkazy na jednotlivé webové sídla orgánov verejnej
+                                                moci nájdete na tomto odkaze.</a></p>
+                                    </div>
+                                    <div>
+                                        <h3 class="govuk-body-s"><b>Táto stránka je zabezpečená</b></h3>
+                                        <p class="govuk-body-s max-width77-desktop">Buďte pozorní a vždy sa uistite, že
+                                            zdieľate informácie iba cez zabezpečenú webovú stránku verejnej správy SR.
+                                            Zabezpečená stránka vždy začína https:// pred názvom domény webového
+                                            sídla.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="govuk-predheader govuk-width-container">
+                <div class="govuk-header__logo">
+                    <a href="/" class="govuk-header__link govuk-header__link--homepage"
+                       title="Odkaz na titulnú stránku">
+
+
+                        <img src="/assets/images/logominv.png" alt="logo Ministerstva vnútra Slovenskej republiky">
+                    </a>
+                </div>
+                <div class="govuk-header__btns-search">
+                    <div class="govuk-header__mobile-menu desktop-hidden">
+                        <button type="button" class="govuk-header__menu-button font-bold govuk-js-header-toggle"
+                                aria-controls="navigation" hidden>
+                            Menu
+                        </button>
+                    </div>
+
+                    <div class="idsk-searchbar__wrapper" role="search">
+                        <div class="col1">
+                            <div><a href="/?ministry-of-interior" class="govuk-link">English</a></div>
+                            <div style="flex: 2;">Dnes je 26. máj 2026, utorok</div>
+                        </div>
+                        <div class="col2">
+                            <a href="https://www.facebook.com/ministerstvovnutraSR" class="govuk-link" target="_blank" id="facebook" title="Facebook stránka Ministerstvo vnútra SR"><img src="/swift_data/source/ikony/facebook_logo_primary_64.png" width="24" height="24" alt="Facebook logo"></a>
+
+                            <form method="get" action="/swift_data/scripts/search/search.php" id="search-form">
+                                <input type="hidden" name="category" value="2">
+                                <input class="govuk-input" type="search" placeholder="Zadajte hľadaný výraz"
+                                       maxlength="50"
+                                       aria-label="Vyhľadávanie"
+                                       title="Zadajte hľadaný výraz"
+                                       name="text">
+                                <button class="govuk-button govuk-button__basic" aria-label="Hladat"><span
+                                       class="material-icons" aria-hidden="true">search</span></button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <nav id="navigation" aria-label="Menu" class="govuk-header__navigation govuk-width-container">
+                <div class="govuk-header__navigation-list">
+                    <ul>
+                        <li class="govuk-header__navigation-item sekcie-mv-sr">
+                            <div class="idsk-dropdown__wrapper" data-pseudolabel="položky">
+                                <a role="button" href="#" class="govuk-button govuk-button--texted idsk-dropdown"
+                                   aria-label="Rozbaliť položky" aria-haspopup="listbox">
+
+                                    <span>Sekcie MV SR</span>
+                                    <span class="material-icons" aria-hidden="true">keyboard_arrow_down</span>
+                                </a>
+                                <div class="idsk-dropdown__options idsk-shadow-medium">
+                                    <div>
+                                        <h3>Ministerstvo vnútra SR</h3>
+                                        <img
+                                                src="/swift_data/source/images/ikony/adresa.png" alt="Adresa">
+                                        Pribinova 2, 812 72 Bratislava<br>
+                                        <img
+                                                src="/swift_data/source/images/ikony/telefon.png" alt="Telefón">
+                                        02/5094 1111<br>
+                                        <img src="/swift_data/source/images/ikony/fax.png"
+                                             alt="Fax">
+                                        02/5094 4397<br>
+                                        <img
+                                                src="/swift_data/source/images/ikony/e-mail.png" alt="E-mail"><a
+                                                class="sehua govuk-link" href="TA.13G4@QGR2HD:FKRGS4@"><span class="sehuo">TA.13G4@QGR2HD@</span></a>
+                                        <h3>Call centrum:</h3>
+                                        <img
+                                                src="/swift_data/source/images/ikony/sluchatka.png"
+                                                alt="Telefon">
+                                        <strong>0800 222 222</strong><br>
+                                        Nahlásenie problému:<br>
+<a class="govuk-link" title="Callcentrum MV SR" href="https://portal.minv.sk/wps/portal/!ut/p/a1/pZPLUoMwFIafxQdwchKSEJZcKvdShNbKxmGmtqItdGzHhU9vaF1IMwadhlVmvi85PycHVWiJqrb-aDb1senaetvvK_5EwZ0EUQwRUMGBe4uY5mYAQJgEHiUAvywbLnxsMci5ZWSBExPI6LevAQa-EIkBNp1RmzGKQbBLXwV0fslHfN8c-pmb4FN5k9iyZT464gO_zi__66vAMP_UIZCXIolyIWQ8UO5XgKEflLKp8R0LrHxqgI8VXwGGfoZleUaa3celZ_S_5-y7vh1QM-kLFgRCzwk800oBQq71haHWP-GQJyZl84gRNf-orxR4lS-BkfmJ_vDAyXvqphtU7evjy23Trju0nHWrun2umnrVHY5Nseg-m9W226EHVGkP7B-0FugTnwBdS06AbubHpu4MYEJC7BQQ-SK3wPZDbpKJI1PjESBUr1D7ru2cb4wAgqDi8Ib2u_mPtfxM1kXYyO-V2jdfXJyCPg!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/" target="_blank">Formulár Call Centra MV SR</a><br><br>
+                                        PO UT ŠT PIA: 8.00 - 16.00<br>
+                                        STREDA: 8.00 - 17.00
+
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li><a href="/?ministerstvo-vnutra" class="govuk-link">Ministerstvo vnútra SR</a></li>
+                                            <li><a href="/?uvod-komisia-pre-volby" class="govuk-link">Štátna komisia pre voľby</a></li>
+                                            <li><a href="/?miestna_statna_sprava" class="govuk-link">Okresné úrady/<strong>Klientske
+                                                centrá</strong></a></li>
+                                            <li><a title="Elektronické služby MV SR [nové okno]"
+                                                   href="https://portal.minv.sk" class="govuk-link" target="_blank">Elektronické služby</a>
+                                            </li>
+                                            <li><a href="/?europske_programy" class="govuk-link">Európske programy</a></li>
+                                            <li><a href="/?policia" class="govuk-link">Policajný zbor</a></li>
+                                            <li><a href="https://www.stansapolicajtom.sk/" class="govuk-link">Staň sa policajtom</a></li>
+                                            <li><a href="/?azyl-migracia" class="govuk-link">Azyl a migrácia</a></li>
+                                            <li><strong><a href="/?vizova-info-typy-viz-1" class="govuk-link">Cudzinci</a></strong></li>
+                                            <li><a href="/?sekcia-verejnej-spravy" class="govuk-link">Verejná správa</a></li>
+                                            <li><a title="Inštitút správnych a bezpečnostných analýz MV SR"
+                                                   href="/?institut-spravnych-bezpecnostnych-analyz-isba" class="govuk-link">Správne a
+                                                bezpečnostné analýzy</a></li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li><a title="E-trhovisko [nové okno]" href="http://www.eks.sk" class="govuk-link"
+                                                   target="_blank">E-trhovisko</a></li>
+                                            <li><strong><a title="Vestník vlády SR"
+                                                           href="https://www.minv.sk/?vestnik-vlady-sr" class="govuk-link">Vestník vlády
+                                                SR</a></strong></li>
+                                            <li><a href="/?hasici-zachranari" class="govuk-link">Hasiči a záchranári</a></li>
+                                            <li><a href="/?Organizacia" class="govuk-link">Krízové riadenie</a></li>
+                                            <li><a href="/?schengen-uvod" class="govuk-link">Schengen</a></li>
+                                            <li><a href="/?ros" class="govuk-link">Rozvoj občianskej spoločnosti</a></li>
+                                            <li><a title="Športové centrum polície [nové okno]"
+                                                   href="http://www.scpolicie.sk" class="govuk-link" target="_blank">Športové centrum
+                                                polície</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <div class="minv-carousel" data-interval-seconds="5" data-autostart="true"
+         data-txt-play="Spustit automatický posun upútavok" data-txt-stop="Zastavit automatický posun upútavok">
+        <div class="minv-carousel-section">
+            <div class="govuk-width-container">
+                <div class="minv-carousel-items" role="listbox">
+<div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?tlacove-spravy-2&amp;sprava=ministerstvo-vnutra-odstartovalo-roadshow-na-vlastnej-kozi"
+               class="govuk-link">Ministerstvo vnútra odštartovalo roadshow &quot;Na vlastnej koži&quot;</a></h2>
+        <p>
+            <time datetime="2026-05-05">05. 05. 2026</time> Ministerstvo vnútra SR v pondelok 4. mája 2026 odštartovalo celoslovenskú terénnu preventívnu kampaň „Na vlastnej koži&quot;. Úvodné podujatie v Košiciach prilákalo stovky žiakov, študentov, pedagógov, rodičov a potvrdilo veľký záujem verejnosti o tému ochrany detí a mladých ľudí pred rizikami dnešnej doby.
+Do kampane je do dnešného dňa prihlásených viac ako 12 000 detí z celého Slovenska. Rezort vnútra avizuje, že to vytvára obrovský záväzok, preto bude v projekte pokračovať aj na jeseň.
+
+„O drogách...
+        </p>
+        <a href="/?tlacove-spravy-2&amp;sprava=ministerstvo-vnutra-odstartovalo-roadshow-na-vlastnej-kozi"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?tlacove-spravy-2&amp;sprava=ministerstvo-vnutra-odstartovalo-roadshow-na-vlastnej-kozi"
+            class="govuk-link"><img
+            src="/swift_data/source/images/roadshow (3).jpg"
+            alt="roadshow (3)"></a>
+    </div>
+</div><div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?tlacove-spravy-2&amp;sprava=rezorty-vnutra-a-dopravy-pripravuju-spolocne-riesenia-pre-tranzit-kamionov-aj-kontroly-taxisluzieb"
+               class="govuk-link">Rezorty vnútra a dopravy pripravujú spoločné riešenia pre tranzit kamiónov aj kontroly taxislužieb </a></h2>
+        <p>
+            <time datetime="2026-04-20">20. 04. 2026</time> Minister vnútra Matúš Šutaj Eštok v pondelok 20. apríla 2026 absolvoval pracovné rokovanie  s ministrom dopravy Jozefom Rážom s cieľom nájsť  konkrétne riešenia pre bezpečnosť a plynulosť cestnej premávky. Zamerali sa najmä na obmedzenie tranzitu nákladnej dopravy, pravidlá predbiehania kamiónov, fungovanie taxislužieb a zlepšenie informovanosti občanov v oblasti evidencie vozidiel.
+Adresné obmedzenia tranzitu nákladiakov
+Jednou z kľúčových tém bolo obmedzenie tranzitu nákladnej dopravy na...
+        </p>
+        <a href="/?tlacove-spravy-2&amp;sprava=rezorty-vnutra-a-dopravy-pripravuju-spolocne-riesenia-pre-tranzit-kamionov-aj-kontroly-taxisluzieb"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?tlacove-spravy-2&amp;sprava=rezorty-vnutra-a-dopravy-pripravuju-spolocne-riesenia-pre-tranzit-kamionov-aj-kontroly-taxisluzieb"
+            class="govuk-link"><img
+            src="/swift_data/source/images/kamion-obec-ilustr.png"
+            alt="kamion-obec-ilustr"></a>
+    </div>
+</div><div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?tlacove-spravy-2&amp;sprava=parlament-schvalil-lex-pzp-ktory-chrani-zodpovednych-vodicov-a-stiahne-z-ciest-nepoistene-auta"
+               class="govuk-link">Parlament schválil LEX PZP, ktorý chráni zodpovedných vodičov a stiahne z ciest nepoistené autá</a></h2>
+        <p>
+            <time datetime="2026-04-14">14. 04. 2026</time> Národná rada SR schválila 14. apríla 2026 zákon z dielne Ministerstva vnútra SR, ktorý zavedie poriadok a spravodlivosť do systému povinného zmluvného poistenia (PZP) a radikálne zníži počet nepoistených vozidiel v cestnej premávke. 
+Nové pravidlá umožnia štátu efektívnejšiu automatickú kontrolu a ukladanie pokút za nepoistenie vozidla, pričom poslednou sankciou bude až vyradenie z evidencie. Autá bez platného PZP po novom neprejdú ani technickou a emisnou kontrolou. 
+V úvode dôjde k vyčisteniu...
+        </p>
+        <a href="/?tlacove-spravy-2&amp;sprava=parlament-schvalil-lex-pzp-ktory-chrani-zodpovednych-vodicov-a-stiahne-z-ciest-nepoistene-auta"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?tlacove-spravy-2&amp;sprava=parlament-schvalil-lex-pzp-ktory-chrani-zodpovednych-vodicov-a-stiahne-z-ciest-nepoistene-auta"
+            class="govuk-link"><img
+            src="/swift_data/source/images/pzp-ilustr.png"
+            alt="pzp-ilustr"></a>
+    </div>
+</div><div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?tlacove-spravy-1&amp;sprava=spolocna-bezpecnostno-preventivna-akcia-zelena-ii-potvrdila-pripravenost-slovenska-a-ceska-celit-migracnym-a-bezpecnostnym-hrozbam"
+               class="govuk-link">Spoločná bezpečnostno-preventívna akcia &quot;ZELENÁ II&quot; potvrdila pripravenosť Slovenska a Česka čeliť migračným a bezpečnostným hrozbám</a></h2>
+        <p>
+            <time datetime="2026-03-30">30. 03. 2026</time> Ministerstvo vnútra v pondelok 30. marca 2026 realizovalo bezpečnostno–preventívnu akciu „Zelená II&quot;, zameranú na kontrolu nelegálnej migrácie a preverenie pripravenosti bezpečnostných zložiek. Na akcii sa na pozvanie ministra vnútra  Matúša Šutaja Eštoka zúčastnil aj minister vnútra Českej republiky Lubomír Metnar, spolu s ďalšími zahraničnými partnermi.
+Cieľom akcie bolo posilniť kontrolné mechanizmy, preveriť nasadenie síl a prostriedkov v teréne a demonštrovať pripravenosť Slovenska na možné...
+        </p>
+        <a href="/?tlacove-spravy-1&amp;sprava=spolocna-bezpecnostno-preventivna-akcia-zelena-ii-potvrdila-pripravenost-slovenska-a-ceska-celit-migracnym-a-bezpecnostnym-hrozbam"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?tlacove-spravy-1&amp;sprava=spolocna-bezpecnostno-preventivna-akcia-zelena-ii-potvrdila-pripravenost-slovenska-a-ceska-celit-migracnym-a-bezpecnostnym-hrozbam"
+            class="govuk-link"><img
+            src="/swift_data/source/images/medvedov30032026.jpg"
+            alt="medvedov30032026"></a>
+    </div>
+</div><div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?tlacove-spravy-2&amp;sprava=dostupnost-syntetickych-drog-cez-predajne-automaty-obmedzi-novy-zakon-o-psychoaktivnych-latkach"
+               class="govuk-link">Dostupnosť syntetických drog cez predajné automaty obmedzí nový zákon o psychoaktívnych látkach</a></h2>
+        <p>
+            <time datetime="2026-03-20">20. 03. 2026</time> Ministerstvo vnútra upozorňuje na závažné riziko predaja produktov obsahujúcich psychoaktívne látky prostredníctvom predajných automatov, ktoré sú často umiestnené na verejne dostupných miestach, predovšetkým v obchodných centrách.
+Produkty sú ponúkané vo forme balíčkov sušiny, jointov, rôznych vap-náplní, ako aj vo forme sladkostí. Niektoré z týchto produktov sú prezentované ako CBD produkty, avšak napriek tomu obsahujú rôzne zložky, vrátane látok zaradených medzi zakázané podľa zákona č....
+        </p>
+        <a href="/?tlacove-spravy-2&amp;sprava=dostupnost-syntetickych-drog-cez-predajne-automaty-obmedzi-novy-zakon-o-psychoaktivnych-latkach"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?tlacove-spravy-2&amp;sprava=dostupnost-syntetickych-drog-cez-predajne-automaty-obmedzi-novy-zakon-o-psychoaktivnych-latkach"
+            class="govuk-link"><img
+            src="/swift_data/source/images/synteticke-drogy20032026a.jpg"
+            alt="synteticke-drogy20032026a"></a>
+    </div>
+</div><div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?tlacove-spravy-2&amp;sprava=minister-vnutra-odovzdal-policii-60-novych-osobnych-vozidiel-posilnia-specializovane-utvary-prezidia-pz"
+               class="govuk-link">Minister vnútra odovzdal polícii 60 nových osobných vozidiel, posilnia  špecializované útvary Prezídia PZ</a></h2>
+        <p>
+            <time datetime="2026-03-19">19. 03. 2026</time> Ministerstvo vnútra SR pokračuje v modernizácii a zlepšovaní pracovných podmienok Policajného zboru. V rámci systematickej obnovy vozového parku si vo štvrtok 19. marca 2026 policajti špecializovaných útvarov Prezídia Policajného zboru z rúk ministra prevzali kľúče od 60 nových vozidiel KIA CEED SW.
+„Odovzdaním týchto vozidiel potvrdzujeme náš záväzok postupne modernizovať policajnú techniku naprieč celým rezortom a zabezpečiť efektívnu operatívnu činnosť všetkých policajných útvarov,&quot; povedal...
+        </p>
+        <a href="/?tlacove-spravy-2&amp;sprava=minister-vnutra-odovzdal-policii-60-novych-osobnych-vozidiel-posilnia-specializovane-utvary-prezidia-pz"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?tlacove-spravy-2&amp;sprava=minister-vnutra-odovzdal-policii-60-novych-osobnych-vozidiel-posilnia-specializovane-utvary-prezidia-pz"
+            class="govuk-link"><img
+            src="/swift_data/source/images/kia-ceed-ppz.jpg"
+            alt="kia-ceed-ppz"></a>
+    </div>
+</div><div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?transparentne-vnutro&amp;sprava=policajti-sluziaci-v-horskych-a-tazko-dostupnych-oblastiach-dostali-moderne-terenne-stvorkolky"
+               class="govuk-link">Policajti slúžiaci v horských a ťažko dostupných oblastiach dostali moderné terénne štvorkolky</a></h2>
+        <p>
+            <time datetime="2026-02-26">26. 02. 2026</time> Ministerstvo vnútra posilňuje kapacity polície - do regiónov Prešova, Košíc a Žiliny bolo rozdelených 10 nových terénnych štvorkoliek s príslušenstvom, ktoré pomôžu policajtom efektívnejšie zasahovať aj v náročnom teréne počas celého roka.
+
+Štvorkolky budú využívať najmä útvary Policajného zboru v okresoch Poprad, Kežmarok, Stará Ľubovňa, Bardejov, Spišská Nová Ves, Žilina, Čadca a Dolný Kubín aj Krajské riaditeľstvo Policajného zboru v Žiline. Ich nasadenie zlepší dostupnosť policajných hliadok...
+        </p>
+        <a href="/?transparentne-vnutro&amp;sprava=policajti-sluziaci-v-horskych-a-tazko-dostupnych-oblastiach-dostali-moderne-terenne-stvorkolky"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?transparentne-vnutro&amp;sprava=policajti-sluziaci-v-horskych-a-tazko-dostupnych-oblastiach-dostali-moderne-terenne-stvorkolky"
+            class="govuk-link"><img
+            src="/swift_data/source/images/trojkolky-policajti-26022026.jpg"
+            alt="trojkolky-policajti-26022026"></a>
+    </div>
+</div><div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?transparentne-vnutro&amp;sprava=dopravna-policia-dostala-nove-sluzobne-vozidla-skoda-octavia-combi"
+               class="govuk-link">Dopravná polícia dostala nové služobné vozidlá Škoda Octavia Combi</a></h2>
+        <p>
+            <time datetime="2026-02-09">09. 02. 2026</time> Ministerstvo vnútra SR pokračuje v modernizácii Policajného zboru s cieľom zlepšiť pracovné podmienky policajtov, zefektívniť výkon služby a zvýšiť bezpečnosť v cestnej premávke. V pondelok 9. februára 2026 si príslušníci dopravnej polície prevzali 17 nových vozidiel Škoda Octavia Combi SELECTION 2.0 TSI (150 kW) so 7-stupňovou automatickou prevodovkou a pohonom 4x4.
+Ide o prvú časť zo 100 obstaraných vozidiel, ktoré budú dodávané postupne a prerozdelené na jednotlivé okresné a krajské dopravné...
+        </p>
+        <a href="/?transparentne-vnutro&amp;sprava=dopravna-policia-dostala-nove-sluzobne-vozidla-skoda-octavia-combi"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?transparentne-vnutro&amp;sprava=dopravna-policia-dostala-nove-sluzobne-vozidla-skoda-octavia-combi"
+            class="govuk-link"><img
+            src="/swift_data/source/images/skodovky-09022026b.JPG"
+            alt="skodovky-09022026b"></a>
+    </div>
+</div><div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?tlacove-spravy-7&amp;sprava=lex-pzp-dlhodobo-nepoistene-vozidla-budu-vyradene-z-evidencie-zavedie-sa-objektivna-zodpovednost-za-povinne-zmluvne-poistenie"
+               class="govuk-link">LEX PZP: dlhodobo nepoistené vozidlá budú vyradené z evidencie, zavedie sa objektívna zodpovednosť za povinné zmluvné poistenie</a></h2>
+        <p>
+            <time datetime="2026-02-03">03. 02. 2026</time> Národná rada SR posunula do 2. čítania návrh zákona, ktorý zefektívni systém povinného zmluvného poistenia (PZP) a radikálne zníži počet nepoistených vozidiel v cestnej premávke. Nové pravidlá umožnia vyradenie dlhodobo nepoistených vozidiel z evidencie a automatické ukladanie pokút za nesplnenie povinnosti mať uzatvorené PZP. Autá bez PZP už po novom neprejdú technickou a emisnou kontrolou.
+Návrh zákona vypracoval rezort vnútra v spolupráci s Ministerstvom financií SR a  Ministerstvom dopravy...
+        </p>
+        <a href="/?tlacove-spravy-7&amp;sprava=lex-pzp-dlhodobo-nepoistene-vozidla-budu-vyradene-z-evidencie-zavedie-sa-objektivna-zodpovednost-za-povinne-zmluvne-poistenie"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?tlacove-spravy-7&amp;sprava=lex-pzp-dlhodobo-nepoistene-vozidla-budu-vyradene-z-evidencie-zavedie-sa-objektivna-zodpovednost-za-povinne-zmluvne-poistenie"
+            class="govuk-link"><img
+            src="/swift_data/source/images/pzp-ilustr.png"
+            alt="pzp-ilustr"></a>
+    </div>
+</div><div class="minv-carousel-item">
+    <div class="minv-carousel-caption">
+        <h2>
+            <a href="/?tlacove-spravy-2&amp;sprava=rokovanie-ministrov-vnutra-slovenska-a-bavorska-o-ochrane-hranic-bolo-spojene-s-cvicenim-bezpecnostno-represivnych-zloziek-pocas-ktoreho-zadrzali-niekolko-osob"
+               class="govuk-link">Rokovanie ministrov vnútra Slovenska a Bavorska o ochrane hraníc bolo spojené s cvičením bezpečnostno-represívnych zložiek, počas ktorého zadržali niekoľko osôb</a></h2>
+        <p>
+            <time datetime="2026-01-08">08. 01. 2026</time> Minister vnútra SR Matúš Šutaj Eštok v stredu 7. januára 2026 privítal ministra vnútra Slobodného štátu Bavorsko Joachima Herrmanna. V úvode bilaterálnej návštevy sa ministri zúčastnili inštruktážneho cvičenia bezpečnostno-represívnych zložiek v rámci Akcie Zelená 2026. Išlo o reálny výkon kontrol a nasadenie síl a prostriedkov Policajného zboru, Finančnej správy, Hasičského a záchranného zboru a Leteckého útvaru MV SR.
+
+Okrem preverenia koordinácie jednotlivých zložiek bolo zámerom akcie vyslať...
+        </p>
+        <a href="/?tlacove-spravy-2&amp;sprava=rokovanie-ministrov-vnutra-slovenska-a-bavorska-o-ochrane-hranic-bolo-spojene-s-cvicenim-bezpecnostno-represivnych-zloziek-pocas-ktoreho-zadrzali-niekolko-osob"
+           class="govuk-link">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            Viac
+        </a>
+    </div>
+    <div class="minv-carousel-item-img"><a
+            href="/?tlacove-spravy-2&amp;sprava=rokovanie-ministrov-vnutra-slovenska-a-bavorska-o-ochrane-hranic-bolo-spojene-s-cvicenim-bezpecnostno-represivnych-zloziek-pocas-ktoreho-zadrzali-niekolko-osob"
+            class="govuk-link"><img
+            src="/swift_data/source/images/akcia-zelena1.jpg"
+            alt="akcia-zelena1"></a>
+    </div>
+</div>
+                </div>
+            </div>
+        </div>
+        <div class="minv-carousel-controls"></div>
+    </div>
+    <main class="govuk-main-wrapper govuk-main-wrapper--auto-spacing">
+        <div class="govuk-width-container pdt-25 pdb-25">
+            <nav aria-label="Omrvinková navigácia" id="nav-main">
+                <div class="govuk-breadcrumbs">
+                    <ol class="govuk-breadcrumbs__list">
+                        <li class="govuk-breadcrumbs__list-item">
+                            <a class="govuk-breadcrumbs__link" href="/">Úvodná stránka MV SR</a>
+                        </li><li class="govuk-breadcrumbs__list-item">
+                            <a class="govuk-breadcrumbs__link" href="/?policia">Polícia</a>
+                        </li>
+                    </ol>
+                </div>
+            </nav>
+
+            <div class="govuk-grid-row" id="idsk-article-pattern">
+                <!-- SIDE -->
+                <div class="govuk-grid-column-one-quarter-from-desktop custom-col-full-tablet">
+                    <div class="sidemenu">
+                        <img src="/swift_data/source/images/2024/uvodne_stranky/25.jpg" alt="Polícia">
+                        <button type="button" class="sidemenu_button govuk-link">Polícia</button>
+                        <div class="sidemenu_list">
+                            <div class="small-nav -alt" role="navigation" aria-label="Vedľajšia navigácia">
+<ul><li id="menu-item-278" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-278"><a href="/?policia" class="menu-item-link">Úvodná stránka</a>                                    </li><li id="menu-item-6205" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-6205"><a href="/?PZ_SR-eticky-kodex" class="menu-item-link">Policajný zbor</a>                                    <ul class="sub-menu"><li id="menu-item-6349" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-6349"><a href="/?hodnosti_v_PZ" class="menu-item-link">Hodnosti</a></li><li id="menu-item-6392" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-6392"><a href="/?cpv-mvsr" class="menu-item-link">Vzdelávanie</a><ul class="sub-menu"><li id="menu-item-1283" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1283"><a href="/?cpv-mvsr" class="menu-item-link">Centrum vzdelávania a psychológie</a></li><li id="menu-item-414" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-414"><a href="/?akademia_PZ" class="menu-item-link">Akadémia PZ</a></li><li id="menu-item-247" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-247"><a href="/?zameranie-skoly" class="menu-item-link">SOŠ PZ Bratislava</a></li><li id="menu-item-255" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-255"><a href="/?zameranie-skoly-1" class="menu-item-link">SOŠ PZ Pezinok</a></li><li id="menu-item-263" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-263"><a href="/?sospzke" class="menu-item-link">SOŠ PZ Košice</a></li></ul></li><li id="menu-item-5564" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-5564"><a href="/?sluzobny_pomer_v_PZ" class="menu-item-link">Kariéra</a><ul class="sub-menu"><li id="menu-item-57" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-57"><a href="/?pracovne-prilezitosti-3" class="menu-item-link">Pracovné príležitosti</a></li><li id="menu-item-11774" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-11774"><a href="/?kampan-stan-sa-policajtom" class="menu-item-link">Staň sa policajtom!</a></li></ul></li><li id="menu-item-435" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-435"><a href="/?informacie-pre-poberatelov" class="menu-item-link">Sociálne zabezpečenie</a></li><li id="menu-item-1516" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1516"><a href="/?dokumenty-na-stiahnutie-8" class="menu-item-link">Dokumenty</a></li><li id="menu-item-1693" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1693"><a href="/?muzeum-policie-slovenskej-republiky" class="menu-item-link">Múzeum polície</a></li></ul></li><li id="menu-item-17523" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17523"><a href="/?kampan-stan-sa-policajtom" class="menu-item-link">STAŇ SA POLICAJTOM!</a>                                    </li><li id="menu-item-284" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-284"><a href="/?tlacove-spravy-2" class="menu-item-link">Aktuality Prezídia PZ</a>                                    </li><li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children active current-menu-ancestor current-menu-parent menu-item-52"><a href="/?struktura_PPZ" class="menu-item-link">Prezídium Policajného zboru</a>                                    <ul class="sub-menu"><li id="menu-item-1493" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1493"><a href="/?vedenie-prezidia-policajneho-zboru" class="menu-item-link">Vedenie Prezídia PZ</a></li><li id="menu-item-1808" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1808"><a href="/?prezidium-pz-odbor-kontroly" class="menu-item-link">Kontrola a sťažnosti</a></li><li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-73"><a href="/?Policia_UMPS" class="menu-item-link">Úrad medzinárodnej policajnej spolupráce</a><ul class="sub-menu"><li id="menu-item-141" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-141"><a href="/?medzinarodna_spolupraca" class="menu-item-link">Oddelenie medzinárodnej policajnej spolupráce</a></li><li id="menu-item-1546" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1546"><a href="/?narodna-ustredna-sirene" class="menu-item-link">SIRENE</a></li><li id="menu-item-137" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-137"><a href="/?interpol" class="menu-item-link">Interpol</a></li><li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-138"><a href="/?europol" class="menu-item-link">Europol</a></li><li id="menu-item-11549" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-11549"><a href="/?narodna-ustredna-informacii-o-pasazieroch" class="menu-item-link">Národná ústredňa informácií o pasažieroch</a></li><li id="menu-item-140" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-140"><a href="/?OC-policajni-pridelenci" class="menu-item-link">Policajní pridelenci a mierové misie</a></li></ul></li><li id="menu-item-5621" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-5621"><a href="/?utvar-osobitneho-urcenia-prezidia-policajneho-zboru" class="menu-item-link">Útvar osobitného určenia</a><ul class="sub-menu"><li id="menu-item-8579" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-8579"><a href="/?vyberove-konanie-5" class="menu-item-link">Výberové konanie</a></li></ul></li><li id="menu-item-17318" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-17318"><a href="/?UBOK" class="menu-item-link">Úrad boja proti organizovanej kriminalite  </a><ul class="sub-menu"><li id="menu-item-17951" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17951"><a href="/?OZK" class="menu-item-link">Oznámte nám korupciu</a></li><li id="menu-item-17556" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17556"><a href="/?smernice-oecd" class="menu-item-link">PREVENCIA KORUPCIE ZAHRANIČNÝCH VEREJNÝCH ČINITEĽOV V MEDZINÁRODNÝCH OBCHODNÝCH TRANSAKCIÁCH</a></li><li id="menu-item-17643" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17643"><a href="/?oddelenie-medzinarodnej-spoluprace-odboru-podpory-riadenia-ubok-p-pz" class="menu-item-link">ODDELENIE MEDZINÁRODNEJ SPOLUPRÁCE ODBORU PODPORY RIADENIA ÚBOK P PZ</a></li></ul></li><li id="menu-item-17430" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-17430"><a href="/?PPZ_NPJ" class="menu-item-link">Národná protidrogová jednotka</a><ul class="sub-menu"><li id="menu-item-10164" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-10164"><a href="/?ceny_drog" class="menu-item-link">Ceny drog na čiernom trhu</a></li><li id="menu-item-9767" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-9767"><a href="/?drogova-scena-na-uzemi-slovenskej-republiky" class="menu-item-link">Drogová scéna SR</a></li></ul></li><li id="menu-item-17332" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-17332"><a href="/?PTC_P_PZ" class="menu-item-link">Protiteroristická centrála</a><ul class="sub-menu"><li id="menu-item-17337" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17337"><a href="/?Spravy_PT" class="menu-item-link">Správy PTC</a></li></ul></li><li id="menu-item-476" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-476"><a href="/?financna-policia" class="menu-item-link">Finančná spravodajská jednotka</a><ul class="sub-menu"><li id="menu-item-8676" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-8676"><a href="/?IoCFSJ" class="menu-item-link">Informácie o činnosti</a></li><li id="menu-item-17228" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17228"><a href="/?IS_goAML" class="menu-item-link">Informačný systém goAML</a></li><li id="menu-item-15405" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-15405"><a href="/?kontakty-fsj" class="menu-item-link">Kontakty</a></li><li id="menu-item-17604" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17604"><a href="/?MONEYVAL-FATF" class="menu-item-link">MONEYVAL a FATF</a></li><li id="menu-item-12084" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-12084"><a href="/?OMS-1" class="menu-item-link">Medzinárodná spolupráca</a></li><li id="menu-item-8662" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-8662"><a href="/?informacie-pre-povinne-osoby-a-zdruzenia-majetku" class="menu-item-link">Informácie pre povinné osoby a združenia majetku</a></li><li id="menu-item-11605" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-11605"><a href="/?Metodicke-usmernenia-a-stanoviska-FSJ" class="menu-item-link">Metodické usmernenia a stanoviská FSJ</a></li><li id="menu-item-8674" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-8674"><a href="/?legislativa-16" class="menu-item-link">Legislatíva</a></li><li id="menu-item-17907" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17907"><a href="/?KPO-FSJ" class="menu-item-link">Kontrola povinných osôb</a></li><li id="menu-item-17993" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17993"><a href="/?fsj_faq" class="menu-item-link">Najčastejšie otázky a odpovede</a></li></ul></li><li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-71"><a href="/?narodna-centrala-osobitnych-druhov-kriminality" class="menu-item-link">Národná centrála osobitných druhov kriminality</a><ul class="sub-menu"><li id="menu-item-1778" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1778"><a href="/?narodna-centrala-osobitnych-druhov-kriminality" class="menu-item-link">Národná centrála osobitných druhov kriminality</a></li></ul></li><li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-72"><a href="/?keupz" class="menu-item-link">Kriminalistický a expertízny ústav PZ</a><ul class="sub-menu"><li id="menu-item-125" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-125"><a href="/?struktura-3" class="menu-item-link">Štruktúra</a></li><li id="menu-item-1408" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1408"><a href="/?kontakty-35" class="menu-item-link">Kontakty</a></li><li id="menu-item-17373" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17373"><a href="/?naklady-na-udrzbu-informacnych-systemov-afis-codis" class="menu-item-link">Projekty</a></li></ul></li><li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-79"><a href="/?urad-sukromnych-bezpecnostnych-sluzieb-p-pz" class="menu-item-link">Súkromná bezpečnosť</a><ul class="sub-menu"><li id="menu-item-178" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-178"><a href="/?sprava-o-cinnosti-sbs" class="menu-item-link">Informácie</a></li><li id="menu-item-177" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-177"><a href="/?kontakty-12" class="menu-item-link">Kontakty</a></li><li id="menu-item-1313" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1313"><a href="/?pravne-normy" class="menu-item-link">Legislatíva</a></li><li id="menu-item-182" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-182"><a href="/?najcastejsie-kladene-otazky" class="menu-item-link">Najčastejšie kladené otázky</a></li><li id="menu-item-1088" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1088"><a href="/?vyhladavanie" class="menu-item-link">Vyhľadávanie firiem a preukazov</a></li></ul></li><li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-77"><a href="/?uhcp" class="menu-item-link">Hraničná a cudzinecká polícia</a><ul class="sub-menu"><li id="menu-item-16404" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-16404"><a href="/?nv" class="menu-item-link">Národné víza - objednávanie</a></li><li id="menu-item-12113" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-12113"><a href="/?informacie-o-pobyte-na-uzemi-sr-v-suvislosti-s-vystupenim-spojeneho-kralovstva-velkej-britanie-a-severneho-irska-z-europskej-unie-brexit-1" class="menu-item-link">BREXIT</a></li><li id="menu-item-13687" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-13687"><a href="/?ict" class="menu-item-link">ICT</a></li><li id="menu-item-166" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-166"><a href="/?vizova-info-typy-viz-1" class="menu-item-link">Informácie pre cudzincov</a></li><li id="menu-item-17313" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17313"><a href="/?ees-system-vstup-vystup" class="menu-item-link">Systém vstup/výstup</a></li><li id="menu-item-489" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-489"><a href="/?hranicne-priechody-1" class="menu-item-link">Hraničné priechody</a></li><li id="menu-item-17699" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17699"><a href="/?objednavaci-system-vynimky" class="menu-item-link">Objednávací systém - výnimky</a></li><li id="menu-item-11947" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-11947"><a href="/?objednavaci-system-na-ocp" class="menu-item-link">Objednávací systém na OCP</a></li><li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-169"><a href="/?cudzinecka-agenda" class="menu-item-link">Najčastejšie otázky</a></li><li id="menu-item-1352" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1352"><a href="/?legislativa-44" class="menu-item-link">Legislatíva</a></li><li id="menu-item-16284" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-16284"><a href="/?monitoring-navratov" class="menu-item-link">Monitoring návratov</a></li><li id="menu-item-17650" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17650"><a href="/?fond-pre-azyl-migraciu-a-integraciu-amif-2021-2027" class="menu-item-link">Projekty ÚHCP P PZ financované z Fondov Európskej únie</a></li><li id="menu-item-543" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-543"><a href="/?rocenky" class="menu-item-link">Štatistiky</a></li><li id="menu-item-17691" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17691"><a href="/?kontakty-hranicnej-a-cudzineckej-policie" class="menu-item-link">Kontakty Hraničnej a cudzineckej polície</a></li><li id="menu-item-1178" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1178"><a href="/?uhcp" class="menu-item-link">Postavenie a hlavné úlohy úradu</a></li></ul></li><li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-68"><a href="/?informacie-1" class="menu-item-link">Poriadková polícia</a><ul class="sub-menu"><li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-95"><a href="/?informacie-1" class="menu-item-link">Charakteristika</a></li><li id="menu-item-17436" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17436"><a href="/?OMC" class="menu-item-link">Ochrana mäkkých cieľov</a></li><li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-96"><a href="/?obecne_policie" class="menu-item-link">Obecné polície</a></li><li id="menu-item-17437" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17437"><a href="/?PO" class="menu-item-link">Poriečne oddelenie</a></li><li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-94"><a href="/?kontakty-3" class="menu-item-link">Kontakty</a></li></ul></li><li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-67"><a href="/?dopravne_informacie" class="menu-item-link">Dopravná polícia</a><ul class="sub-menu"><li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-89"><a href="/?dopravne_informacie" class="menu-item-link">Dopravné informácie</a></li><li id="menu-item-1034" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1034"><a href="/?dopravna_policia" class="menu-item-link">Hlavné úlohy dopravnej polície</a></li><li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-87"><a href="/?organizacna-struktura-dopravnej-policie" class="menu-item-link">Kontakty</a></li><li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-88"><a href="/?legislativa-1" class="menu-item-link">Legislatíva</a></li><li id="menu-item-1131" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1131"><a href="/?cestna-kontrola" class="menu-item-link">Cestná kontrola</a></li><li id="menu-item-90" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-90"><a href="/?dopravne_nehody" class="menu-item-link">Dopravné nehody</a></li><li id="menu-item-1523" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1523"><a href="/?statisticke-ukazovatele-sluzby-dopravnej-policie" class="menu-item-link">Dopravná nehodovosť v SR</a></li><li id="menu-item-1160" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1160"><a href="/?konanie-o-priestupkoch" class="menu-item-link">Konanie o priestupkoch</a></li><li id="menu-item-12607" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-12607"><a href="/?objektivna-zodpovednost" class="menu-item-link">Objektívna zodpovednosť</a></li><li id="menu-item-2334" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-2334"><a href="/?Kontakty_MP" class="menu-item-link">Mýtna polícia</a></li></ul></li><li id="menu-item-2263" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-2263"><a href="/?zeleznicna-policia-1" class="menu-item-link">Železničná polícia</a><ul class="sub-menu"><li id="menu-item-10847" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-10847"><a href="/?triky" class="menu-item-link">Preventívna kampaň</a></li><li id="menu-item-2303" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-2303"><a href="/?kontakty-ZP" class="menu-item-link">Kontakty</a></li><li id="menu-item-2328" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-2328"><a href="/?historia-1" class="menu-item-link">História a vznik Železničnej polície</a></li><li id="menu-item-2333" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-2333"><a href="/?railpol" class="menu-item-link">Railpol</a></li></ul></li><li id="menu-item-1652" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-1652"><a href="/?odbor-ochrany-objektov-1" class="menu-item-link">Ochrana objektov</a><ul class="sub-menu"><li id="menu-item-1729" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1729"><a href="/?historia-sluzby" class="menu-item-link">História služby</a></li><li id="menu-item-1733" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1733"><a href="/?struktura-sluzby-ochrany-objektov" class="menu-item-link">Štruktúra</a></li><li id="menu-item-1731" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1731"><a href="/?kontakty-41" class="menu-item-link">Kontakty</a></li></ul></li><li id="menu-item-70" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-70"><a href="/?informacie-3" class="menu-item-link">Doklady a evidencie</a><ul class="sub-menu"><li id="menu-item-11469" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-11469"><a href="/?ochrana-fyzickych-osob-pri-spracuvani-osobnych-udajov-1" class="menu-item-link">Ochrana osobných údajov</a></li><li id="menu-item-103" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-103"><a href="/?kontakty-5" class="menu-item-link">Kontakty</a></li><li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-104"><a href="/?informacie-3" class="menu-item-link">Informácie</a></li><li id="menu-item-106" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-106"><a href="/?cestovne-pasy" class="menu-item-link">Cestovné pasy</a></li><li id="menu-item-105" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-105"><a href="/?obcianske-preukazy" class="menu-item-link">Občianske preukazy</a></li><li id="menu-item-10857" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-10857"><a href="/?alternativne-autentifikatory" class="menu-item-link">Alternatívne autentifikátory</a></li><li id="menu-item-108" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-108"><a href="/?vodicske-preukazy" class="menu-item-link">Vodičské preukazy</a></li><li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-107"><a href="/?zbrane-a-strelivo" class="menu-item-link">Zbrane a strelivo</a></li><li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-109"><a href="/?Zakladne_informacie_k_evidovaniu_vozidiel" class="menu-item-link">Evidencia vozidiel</a></li><li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-111"><a href="/?stav-spracovania-dokladov" class="menu-item-link">Stav spracovania dokladov</a></li><li id="menu-item-110" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-110"><a href="/?stratene-a-odcudzene-doklady-d" class="menu-item-link">Stratené a odcudzené doklady</a></li><li id="menu-item-112" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-112"><a href="/?vzory-dokladov" class="menu-item-link">Vzory dokladov</a></li><li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-114"><a href="/?statistiky-cesovne-pasy-n" class="menu-item-link">Štatistiky</a></li><li id="menu-item-627" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-627"><a href="/?strankove-dni-a-hodiny-na-pracoviskach" class="menu-item-link">Stránkové dni a hodiny na pracoviskách</a></li></ul></li><li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-78"><a href="/?kontakty_odbor_kynologie_hipologie" class="menu-item-link">Kynológia a hipológia</a><ul class="sub-menu"><li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-170"><a href="/?kontakty_odbor_kynologie_hipologie" class="menu-item-link">Kontakty</a></li><li id="menu-item-1510" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1510"><a href="/?policajna-kynologia" class="menu-item-link">Kynológia</a></li><li id="menu-item-1511" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1511"><a href="/?policajna-hipologia" class="menu-item-link">Hipológia</a></li><li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-172"><a href="/?vycvikove-metody-1" class="menu-item-link">Výcvikové metódy</a></li><li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-173"><a href="/?fotogaleria-3" class="menu-item-link">Galéria služobných psov z chovnej stanice Polícia-Slovakia</a></li></ul></li><li id="menu-item-58" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-58"><a href="/?policajny-vycvik-1" class="menu-item-link">Policajný výcvik</a><ul class="sub-menu"><li id="menu-item-1487" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1487"><a href="/?cinnost-odboru-v-oblasti-sluzobnej-pripravy-a-vycviku" class="menu-item-link">Služobná príprava a výcvik</a></li><li id="menu-item-1416" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1416"><a href="/?kontakty" class="menu-item-link">Kontakty</a></li></ul></li><li id="menu-item-17764" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17764"><a href="/?operacny-odbor-ppz" class="menu-item-link">Operačný odbor</a></li></ul></li><li id="menu-item-303" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-303"><a href="/?krajske-riaditelstva-pz-1" class="menu-item-link">Krajské riaditeľstvá PZ</a>                                    <ul class="sub-menu"><li id="menu-item-439" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-439"><a href="/?aktuality-kr-pz-v-bratislave" class="menu-item-link">KR PZ v Bratislave</a><ul class="sub-menu"><li id="menu-item-442" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-442"><a href="/?aktuality-kr-pz-v-bratislave" class="menu-item-link">Aktuality</a></li><li id="menu-item-803" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-803"><a href="/?kontakty-26" class="menu-item-link">Kontakty</a></li><li id="menu-item-1008" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1008"><a href="/?rady-a-odporucania-2" class="menu-item-link">Služby pre verejnosť</a></li><li id="menu-item-741" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-741"><a href="/?patranie_BA_nezvestni" class="menu-item-link">Pátranie po osobách</a></li><li id="menu-item-711" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-711"><a href="/?or-pz-ba-i" class="menu-item-link">Okresné riaditeľstvá PZ</a></li><li id="menu-item-1682" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1682"><a href="/?verejne-obstaravanie-4" class="menu-item-link">Verejné obstarávanie</a></li><li id="menu-item-1062" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1062"><a href="/?preventivne-aktivity-pre-siroku-verejnost" class="menu-item-link">Prevencia kriminality</a></li><li id="menu-item-1687" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1687"><a href="/?pracovne-prilezitosti-3" class="menu-item-link">Pracovné príležitosti</a></li><li id="menu-item-4097" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4097"><a href="/?nehodove-useky-clanky" class="menu-item-link">Dopravné informácie</a></li></ul></li><li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-383"><a href="/?informacie-krajskeho-riaditelstva-pz-v-trnave" class="menu-item-link">KR PZ v Trnave</a><ul class="sub-menu"><li id="menu-item-545" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-545"><a href="/?kontakty-krajskeho-riaditelstva-pz-v-trnave" class="menu-item-link">Kontakty</a></li><li id="menu-item-540" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-540"><a href="/?rady-a-odporucania" class="menu-item-link">Služby pre verejnosť</a></li><li id="menu-item-558" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-558"><a href="/?patranie-TT-mimoriadne" class="menu-item-link">Pátranie po osobách</a></li><li id="menu-item-977" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-977"><a href="/?patranie-TT-veci" class="menu-item-link">Pátranie po veciach</a></li><li id="menu-item-1080" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1080"><a href="/?prevencia-kriminality-v-trnavskom-kraji" class="menu-item-link">Prevencia kriminality</a></li><li id="menu-item-533" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-533"><a href="/?okresne-riaditelstvo-pz-v-trnave" class="menu-item-link">Okresné riaditeľstvá</a></li><li id="menu-item-4719" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4719"><a href="/?dopravne-obmedzenia-2" class="menu-item-link">Dopravné obmedzenia</a></li><li id="menu-item-4325" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4325"><a href="/?nehodove-useky-3" class="menu-item-link">Nehodové úseky</a></li><li id="menu-item-4209" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4209"><a href="/?hospodarenie-a-finanacie" class="menu-item-link">Hospodárenie a financie</a></li><li id="menu-item-5454" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-5454"><a href="/?projekt-eu-4" class="menu-item-link">Projekt EÚ</a></li><li id="menu-item-17846" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17846"><a href="/?kontaktny-formular-kr-pz-v-trnave" class="menu-item-link">Kontaktný formulár</a></li></ul></li><li id="menu-item-440" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-440"><a href="/?aktuality-nitra" class="menu-item-link">KR PZ v Nitre</a><ul class="sub-menu"><li id="menu-item-1024" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1024"><a href="/?kontakty-krpz-nitra" class="menu-item-link">Kontakty</a></li><li id="menu-item-1025" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1025"><a href="/?rady-a-odporucania-5" class="menu-item-link">Služby pre verejnosť</a></li><li id="menu-item-443" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-443"><a href="/?aktuality-nitra" class="menu-item-link">Aktuality</a></li><li id="menu-item-1026" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1026"><a href="/?prevencia-nr" class="menu-item-link">Prevencia kriminality</a></li><li id="menu-item-4322" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4322"><a href="/?nunk" class="menu-item-link">Nehodové úseky </a></li><li id="menu-item-17022" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17022"><a href="/?dopravne-obmedzenia-1" class="menu-item-link">Dopravné obmedzenia</a></li><li id="menu-item-1027" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1027"><a href="/?okresne-riaditelstvo-pz-v-nitre" class="menu-item-link">Okresné riaditeľstvá</a></li><li id="menu-item-1028" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1028"><a href="/?pracovne-prilezitosti-3" class="menu-item-link">Pracovné príležitosti</a></li><li id="menu-item-1688" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1688"><a href="/?verejne-obstaravanie-8" class="menu-item-link">Hospodárenie a financie</a></li></ul></li><li id="menu-item-382" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-382"><a href="/?informacie-krajskeho-riaditelstva-pz-v-Trencine" class="menu-item-link">KR PZ v Trenčíne</a><ul class="sub-menu"><li id="menu-item-446" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-446"><a href="/?informacie-krajskeho-riaditelstva-pz-v-Trencine" class="menu-item-link">Aktuality</a></li><li id="menu-item-1005" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1005"><a href="/?krajske-riaditelsvo-pz-v-trencine" class="menu-item-link">Kontakty</a></li><li id="menu-item-1155" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1155"><a href="/?sluzby-pre-verejnost-1" class="menu-item-link">Služby pre verejnosť</a></li><li id="menu-item-1081" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1081"><a href="/?prevencia-kriminality-v-trencianskom-kraji" class="menu-item-link">Prevencia kriminality</a></li><li id="menu-item-1153" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1153"><a href="/?okresne-riaditelstva" class="menu-item-link">Okresné riaditeľstvá</a></li><li id="menu-item-4133" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4133"><a href="/?nehodove-useky-a-miesta" class="menu-item-link">Nehodové úseky</a></li><li id="menu-item-4136" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4136"><a href="/?hospodarenie-a-financie-1" class="menu-item-link">Hospodárenie a financie</a></li><li id="menu-item-3207" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-3207"><a href="/?pracovne-prilezitosti-3" class="menu-item-link">Pracovné príležitosti</a></li><li id="menu-item-11643" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-11643"><a href="/?dopravne-obmedzenia" class="menu-item-link">Dopravné obmedzenia</a></li></ul></li><li id="menu-item-438" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-438"><a href="/?aktuality-kr-pz-bb" class="menu-item-link">KR PZ v Banskej Bystrici</a><ul class="sub-menu"><li id="menu-item-1039" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1039"><a href="/?aktuality-kr-pz-bb" class="menu-item-link">Aktuality</a></li><li id="menu-item-1040" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1040"><a href="/?krajske-riaditelstvo-pz-v-banskej-bystrici" class="menu-item-link">Kontakty</a></li><li id="menu-item-1054" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1054"><a href="/?sluzby-pre-verejnost-3" class="menu-item-link">Služby pre verejnosť</a></li><li id="menu-item-1050" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1050"><a href="/?patranie-nezvestni-BB" class="menu-item-link">Pátranie po osobách</a></li><li id="menu-item-1085" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1085"><a href="/?patranie_BB_veci" class="menu-item-link">Pátranie po veciach</a></li><li id="menu-item-1097" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1097"><a href="/?prevencia-v-banskobystrickom-kraji-1" class="menu-item-link">Prevencia kriminality</a></li><li id="menu-item-1059" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1059"><a href="/?okresne-riaditelstva-banskobystricky-kraj" class="menu-item-link">Okresné riaditeľstvá</a></li><li id="menu-item-1296" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1296"><a href="/?pracovne-prilezitosti-3" class="menu-item-link">Pracovné príležitosti</a></li><li id="menu-item-4328" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4328"><a href="/?nehodove-useky-v-banskobystrickom-kraji" class="menu-item-link">Nehodové úseky</a></li><li id="menu-item-4388" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4388"><a href="/?dopravne-obmedzenia-v-banskobystrickom-kraji" class="menu-item-link">Dopravné obmedzenia</a></li><li id="menu-item-2208" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-2208"><a href="/?jednoduche-zakazky" class="menu-item-link">Obstarávanie a ponuky</a></li><li id="menu-item-4337" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4337"><a href="/?hospodarenie-a-financie-BB" class="menu-item-link">Hospodárenie a financie</a></li></ul></li><li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-384"><a href="/?aktuality-zilina" class="menu-item-link">KR PZ v Žiline</a><ul class="sub-menu"><li id="menu-item-448" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-448"><a href="/?aktuality-zilina" class="menu-item-link">Aktuality</a></li><li id="menu-item-727" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-727"><a href="/?krajske-riaditelstvo-pz-v-ziline" class="menu-item-link">Kontakty</a></li><li id="menu-item-729" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-729"><a href="/?potrebujete-radu-alebo-pomoc" class="menu-item-link">Služby pre verejnosť</a></li><li id="menu-item-996" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-996"><a href="/?patranie_ZA_veci" class="menu-item-link">Pátranie po veciach</a></li><li id="menu-item-731" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-731"><a href="/?prevencia_ZA" class="menu-item-link">Prevencia kriminality</a></li><li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-732"><a href="/?okresne-riaditelstvo-pz-v-tesedikove-kopia" class="menu-item-link">Okresné riaditeľstvá</a></li><li id="menu-item-4431" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4431"><a href="/?dopravne-obmedzenia-v-zilinskom-kraji" class="menu-item-link">Dopravné obmedzenia</a></li><li id="menu-item-733" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-733"><a href="/?pracovne-prilezitosti-3" class="menu-item-link">Pracovné príležitosti</a></li><li id="menu-item-2209" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-2209"><a href="/?verejne-obstaravanie-15" class="menu-item-link">Hospodárenie a financie</a></li><li id="menu-item-4396" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4396"><a href="/?oddelenie-ochrany-objektov-kr-pz-zilina" class="menu-item-link">Oddelenie ochrany objektov</a></li></ul></li><li id="menu-item-216" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-216"><a href="/?aktuality-kosice" class="menu-item-link">KR PZ v Košiciach</a><ul class="sub-menu"><li id="menu-item-444" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-444"><a href="/?aktuality-kosice" class="menu-item-link">Aktuality</a></li><li id="menu-item-633" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-633"><a href="/?kontakty-index" class="menu-item-link">Kontakty</a></li><li id="menu-item-955" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-955"><a href="/?rady-a-odporucania-1" class="menu-item-link">Služby pre verejnosť</a></li><li id="menu-item-998" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-998"><a href="/?patranie_KE_mimoriadne" class="menu-item-link">Pátranie po osobách</a></li><li id="menu-item-999" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-999"><a href="/?patranie_KE_veci" class="menu-item-link">Pátranie po veciach</a></li><li id="menu-item-1038" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1038"><a href="/?prevencia-kriminality-v-kosickom-kraji" class="menu-item-link">Prevencia kriminality</a></li><li id="menu-item-635" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-635"><a href="/?okresne-riaditelstvo-pz-v-kosiciach" class="menu-item-link">Okresné riaditeľstvá</a></li><li id="menu-item-3494" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-3494"><a href="/?pracovne-prilezitosti-3" class="menu-item-link">Pracovné príležitosti</a></li><li id="menu-item-3897" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-3897"><a href="/?ekonomicky-odbor-krajskeho-riaditelstva-pz-v-kosiciach" class="menu-item-link">Hospodárenie a financie</a></li><li id="menu-item-5289" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-5289"><a href="/?krajsky-dopravny-inspektorat-krajskeho-riaditelstva-pz-v-kosiciach-1" class="menu-item-link">Dopravné informácie</a></li></ul></li><li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-381"><a href="/?aktuality-presov" class="menu-item-link">KR PZ v Prešove</a><ul class="sub-menu"><li id="menu-item-445" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-445"><a href="/?aktuality-presov" class="menu-item-link">Aktuality</a></li><li id="menu-item-487" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-487"><a href="/?krpz_po" class="menu-item-link">Kontakty</a></li><li id="menu-item-492" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-492"><a href="/?rady_po" class="menu-item-link">Služby pre verejnosť</a></li><li id="menu-item-486" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-486"><a href="/?patranie_PO_hladani" class="menu-item-link">Pátranie po osobách</a></li><li id="menu-item-997" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-997"><a href="/?patranie_PO_veci" class="menu-item-link">Pátranie po veciach</a></li><li id="menu-item-491" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-491"><a href="/?prevencia_PO" class="menu-item-link">Prevencia kriminality</a></li><li id="menu-item-4323" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4323"><a href="/?dopravne-informacie-a-obmedzenia" class="menu-item-link">Dopravné informácie a obmedzenia</a></li><li id="menu-item-4432" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4432"><a href="/?nehodove-useky-2" class="menu-item-link">Nehodové úseky</a></li><li id="menu-item-493" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-493"><a href="/?orpz_po" class="menu-item-link">Okresné riaditeľstvá</a></li><li id="menu-item-1670" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1670"><a href="/?verejne-obstaravanie-2" class="menu-item-link">Hospodárenie a financie</a></li><li id="menu-item-4736" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4736"><a href="/?projekty-eu" class="menu-item-link">Projekty EÚ</a></li></ul></li></ul></li><li id="menu-item-590" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-590"><a href="/?urad-pre-ochranu-ustavnych-cinitelov-a-diplomatickych-misii-mvsr" class="menu-item-link">Ochrana ústavných činiteľov a diplomatických misií</a>                                    </li><li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-66"><a href="/?patracie-systemy" class="menu-item-link">Pátranie</a>                                    <ul class="sub-menu"><li id="menu-item-1498" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-1498"><a href="/?patracie-systemy" class="menu-item-link">Informácie o pátraní</a><ul class="sub-menu"><li id="menu-item-3505" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-3505"><a href="/?patranie-po-osobach" class="menu-item-link">Pátranie po osobách</a></li><li id="menu-item-2348" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-2348"><a href="/?odcudzene-mot-vozidla" class="menu-item-link">Odcudzené motorové vozidlá</a></li><li id="menu-item-9341" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-9341"><a href="/?patrveci-index" class="menu-item-link">Pátranie po veciach</a></li><li id="menu-item-2349" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-2349"><a href="/?stratene-a-odcudzene-doklady" class="menu-item-link">Stratené a odcudzené doklady</a></li><li id="menu-item-2350" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-2350"><a href="/?Odcudzene-a-najdene-umelecke-predmety" class="menu-item-link">Odcudzené a nájdené umelecké predmety</a></li></ul></li><li id="menu-item-1406" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-1406"><a href="/?kontakty-9" class="menu-item-link">Kontakty</a></li></ul></li><li id="menu-item-6182" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-6182"><a href="/?prevencia_vseobecne" class="menu-item-link">Prevencia kriminality P PZ</a>                                    <ul class="sub-menu"><li id="menu-item-1103" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-1103"><a href="/?celoslovenske_projekty_prevencie" class="menu-item-link">Preventívne projekty</a><ul class="sub-menu"><li id="menu-item-11599" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-11599"><a href="/?O_projekte_Pola" class="menu-item-link">Póla radí deťom</a></li><li id="menu-item-4998" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-4998"><a href="/?o_projekte" class="menu-item-link">Oliho príbeh</a></li><li id="menu-item-11137" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-11137"><a href="/?DPA" class="menu-item-link">Detská policajná akadémia</a></li><li id="menu-item-5185" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-5185"><a href="/?O_Projekte_BJZ" class="menu-item-link">Bezpečná jeseň života</a></li><li id="menu-item-17837" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17837"><a href="/?je-to-na-tebe" class="menu-item-link">Je to na tebe!</a></li></ul></li><li id="menu-item-17838" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17838"><a href="/?seniori-zbystrite-pozornost-1" class="menu-item-link">Preventívne programy</a></li><li id="menu-item-17841" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-17841"><a href="/?preventivne-aktivity-1" class="menu-item-link">Preventívne aktivity</a></li><li id="menu-item-5276" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-5276"><a href="/?Preventivne_rady_pre_obcanov" class="menu-item-link">Preventívne rady pre občanov</a></li></ul></li><li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-62"><a href="/?verejne-opisy-veci-1" class="menu-item-link">Verejné opisy vecí</a>                                    </li><li id="menu-item-76" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-76"><a href="/?komunikacia_prevencia" class="menu-item-link">Komunikácia s médiami a verejnosťou</a>                                    <ul class="sub-menu"><li id="menu-item-15893" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-15893"><a href="/?kontakty_media" class="menu-item-link">Kontakty pre médiá</a></li><li id="menu-item-15891" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-15891"><a href="/?informacie_pre_verejnost_O_KAP_PPZ" class="menu-item-link">Informácie pre verejnosť</a></li></ul></li><li id="menu-item-54" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-54"><a href="/?dokumenty-na-stiahnutie-5" class="menu-item-link">Dokumenty</a>                                    </li><li id="menu-item-64" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-64"><a href="/?najcastejsie-otazky-4" class="menu-item-link">Najčastejšie otázky</a>                                    </li><li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-has-children menu-item-63"><a href="/?statistiky-dokumenty" class="menu-item-link">Štatistiky</a>                                    <ul class="sub-menu"><li id="menu-item-5471" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-5471"><a href="/?statistika-kriminality-v-slovenskej-republike-csv" class="menu-item-link">Štatistika kriminality v SR</a></li><li id="menu-item-8833" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-8833"><a href="/?mapy-trestnych-cinov-v-slovenskej-republike-za-rok-2025" class="menu-item-link">Mapy trestných činov v Slovenskej republike</a></li></ul></li><li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-53"><a href="/?kontakty-verejnost" class="menu-item-link">Kontakty</a>                                    </li><li id="menu-item-11448" class="menu-item menu-item-type-post_type menu-item-object-urad menu-item-11448"><a href="/?dotaznik" class="menu-item-link">E-learning</a>                                    </li></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CONTENT -->
+                <div class="govuk-grid-column-three-quarters-from-desktop custom-col-full-tablet mgt-25idsk_tablet" id="hlavny-obsah" role="main">
+                    <nav aria-label="Omrvinková navigácia" id="nav-sub">
+                        <div class="govuk-breadcrumbs">
+                            <ol class="govuk-breadcrumbs__list">
+                                <li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/?policia">Polícia</a></li><li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/?struktura_PPZ">Prezídium Policajného zboru</a></li><li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/?uhcp">Hraničná a cudzinecká polícia</a></li><li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/?vizova-info-typy-viz-1">Informácie pre cudzincov</a></li><li class="govuk-breadcrumbs__list-item"><a class="govuk-breadcrumbs__link" href="/?pobyt-cudzinca">Pobyt cudzinca</a></li>
+                            </ol>
+                        </div>
+                    </nav>
+
+                    <h1>Pobyt cudzinca</h1>
+
+<nav class="tretiemenu">
+    <ul><li><a href="/?bezvizovy-rezim" title="Bezvízový režim" class="govuk-link">Bezvízový režim</a></li><li><a href="/?etias" title="ETIAS - Európsky systém pre cestovné informácie a povolenia" class="govuk-link">ETIAS - Európsky systém pre cestovné informácie a povolenia</a></li><li><a href="/?ziadost-o-udelenie-narodneho-viza" title="Žiadosť o udelenie národného víza" class="govuk-link">Žiadosť o udelenie národného víza</a></li><li><a href="/?ziadost-o-udelenie-schengenskeho-viza" title="Žiadosť o udelenie schengenského víza" class="govuk-link">Žiadosť o udelenie schengenského víza</a></li><li><a href="/?pozvanie-cudzinca" title="Pozvanie cudzinca" class="govuk-link">Pozvanie cudzinca</a></li><li><strong title="Pobyt cudzinca">Pobyt cudzinca</strong></li><li><a href="/?hlasenie-pobytu-1" title="Hlásenie pobytu" class="govuk-link">Hlásenie pobytu</a></li><li><a href="/?objednavaci-system-na-ocp" title="Objednávací systém na OCP" class="govuk-link">Objednajte sa na OCP elektronicky</a></li><li><a href="/?vstup-cudzincov-do-sr-pocas-mimoriadnej-situacie" title="Vstup cudzincov do SR počas mimoriadnej situácie" class="govuk-link">Vstup cudzincov do SR počas mimoriadnej situácie</a></li></ul>
+</nav>
+
+                    <div>
+<h2>Novela zákona č. 404/2011 Z. z. o pobyte cudzincov a o zmene a doplnení niektorých zákonov v znení neskorších predpisov dňa 01. 07. 2025 prináša so sebou výrazne zmeny pri prechodnom pobyte na účel podnikania a to, že žiadosti o UDELENIE prechodného pobytu na účel podnikania bude možné podávať len na našich zastupiteľských úradoch v zahraničí, a to bez teritoriálnych výnimiek</h2>
+<h3>Pobyt štátneho príslušníka tretej krajiny</h3>
+<ul>
+<li>Prechodný pobyt – podnikanie, zamestnanie, štúdium, osobitná činnosť, výskum a vývoj, zlúčenie rodiny, plnenie služobných povinností civilnými zložkami ozbrojených síl, priznané postavenie Slováka žijúceho v zahraničí, priznané postavenie osoby s&nbsp;dlhodobým pobytom v inom členskom štáte, modrá karta (osobitný druh prechodného pobytu)</li>
+<li>Trvalý pobyt – trvalý pobyt na 5 rokov, trvalý pobyt na neobmedzený čas, dlhodobý pobyt</li>
+<li>Tolerovaný pobyt</li>
+</ul>
+<h3>Pobyt občana Únie</h3>
+<ul>
+<li>Právo pobytu na dobu 3 mesiace od vstupu na územie Slovenskej republiky – držiteľ platného preukazu totožnosti alebo cestovného dokladu – bez akýchkoľvek iných podmienok a formalít</li>
+<li>Registrácia pobytu občana Únie</li>
+<li>Trvalý pobyt občana Únie</li>
+</ul>
+<h3>Pobyt rodinného príslušníka občana Únie</h3>
+<ul>
+<li>Právo pobytu na dobu 3 mesiace od vstupu na územie Slovenskej republiky – držiteľ platného cestovného dokladu, sprevádza občana Únie alebo sa k nemu pripája</li>
+<li>Registrácia pobytu rodinného príslušníka občana Únie – len v prípade, ak má občan Únie (s ktorým je v príbuzenskom vzťahu) registrovaný pobyt alebo trvalý na území Slovenskej republiky</li>
+<li>Trvalý pobyt rodinného príslušníka občana Únie</li>
+</ul>
+<h3>Novela zákona 342/2024 Z. z. ktorým sa mení a dopĺňa zákon č. 404/2011 Z. z. o pobyte cudzincov a o zmene a doplnení niektorých zákonov v znení neskorších predpisov sa dňa 15. 12. 2024 zaviedla elektronizáciu procesov evidencie cudzincov v rámci pobytovej agendy. Vytvorila sa možnosť pre cudzincov využívať elektronické služby vo viacerých životných situáciách:</h3>
+<h4>Registrácia občana Únie</h4>
+<p>Služba pre prihláseného používateľa, prostredníctvom elektronického prihlasovacieho prostriedku, ktorý pomocou elektronického podania vie žiadať o registráciu pobytu za seba alebo svoje dieťa. Podmienka je, aby registrovaná osoba bola občanom Únie. Podklady k preverovaniu a skúmaniu sú prikladané pomocou príloh. Povinnosť registrácie vzniká na základe zákona č. 404/2011 Z. z. o pobyte cudzincov a o zmene a doplnení niektorých zákonov v znení neskorších predpisov.</p>
+<p>Žiadateľ zadané údaje potvrdzuje kvalifikovaným elektronickým podpisom.</p>
+<h4>Žiadosť o vydanie dokladu</h4>
+<p>Služba pre prihláseného používateľa, prostredníctvom elektronického prihlasovacieho prostriedku, ktorý pomocou elektronického podania vie žiadať o vydanie dokladu o pobyte, cudzineckého pasu, cestovného dokladu azylanta (Dohovor OSN z 28. júla 1951) alebo Cestovný doklad osoby bez štátnej príslušnosti (Dohovor OSN z 28. septembra 1954) za seba alebo svoje dieťa. Podľa zvoleného druhu dokladu je možné žiadať o expresné vydanie prípadne o oslobodenie od poplatku. <br /> Žiadateľ zadané údaje potvrdzuje kvalifikovaným elektronickým podpisom.</p>
+<h4>Žiadosť o obnovenie pobytu</h4>
+<p>Služba pre prihláseného používateľa, prostredníctvom elektronického prihlasovacieho prostriedku, ktorý pomocou elektronického podania vie žiadať obnovenie pobytu za seba alebo svoje dieťa. Podklady ku konaniu sú prikladané pomocou príloh. V rámci žiadosti je možné žiadať o oslobodenie od poplatku. Žiadateľ zadané údaje potvrdzuje kvalifikovaným elektronickým podpisom.</p>
+<h4>Súhlas s ubytovaním</h4>
+<p>Služba pre prihláseného používateľa, prostredníctvom elektronického prihlasovacieho prostriedku, ktorý pomocou elektronického podania zadá súhlas s ubytovaním cudzinca. Žiadateľ zadané údaje potvrdzuje kvalifikovaným elektronickým podpisom.</p>
+<h4>Odvolanie súhlasu s&nbsp;ubytovaním</h4>
+<p>Služba pre prihláseného používateľa, prostredníctvom elektronického prihlasovacieho prostriedku, ktorý pomocou elektronického podania odvolá súhlas s ubytovaním cudzinca. Odvolať môže aj súhlasy pred tým zadané v papierovej podobe. Žiadateľ zadané údaje potvrdzuje kvalifikovaným elektronickým podpisom.</p>
+<h4>Zoznam súhlasov s ubytovaním</h4>
+<p>Služba pre prihláseného používateľa, ktorá prehľadne poskytuje údaje evidovaných súhlasov v rámci systému ECU bez možnosti zmeny.</p>
+<h4>Registrácia ubytovateľa</h4>
+<p>Služba pre prihláseného používateľa prostredníctvom elektronického prihlasovacieho prostriedku, ktorý pomocou elektronického podania vie žiadať o&nbsp;registráciu svojho ubytovacieho zariadenia alebo meniť údaje registrovaného ubytovacieho zariadenia. Žiadateľ zadané údaje potvrdzuje kvalifikovaným elektronickým podpisom.</p>
+<p><a title="Elektronické služby" href="https://portal.minv.sk/wps/wcm/connect/sk/site/top/uvod" target="_blank">Elektronické služby</a></p>
+<h4>Bližšie informácie sa nachádzajú v časti „<a title="Najčastejšie otázky" href="/?cudzinecka-agenda">Najčastejšie otázky</a></h4>
+<p>Upravené dňa: 10. 12. 2025, 08:27</p>
+                    </div>
+
+
+
+
+
+
+<table class="tabdoc" role="presentation">
+        <tr>
+            <td colspan="2"><strong>Dokumenty na stiahnutie</strong></td>
+        </tr><tr>
+                <td><a href="/?pobyt-cudzinca&amp;subor=540981">Žiadosť o obnovenie prechodného pobytu - ENG (215,8 kB)</a></td>
+                <td class="zaldomenie"><a href="/?pobyt-cudzinca&amp;subor=540981"><img src="/swift_data/source/ikony/pdf.gif" alt="dokument"
+                                                                           width="16" height="16"></a></td>
+            </tr><tr>
+                <td><a href="/?pobyt-cudzinca&amp;subor=540979">Žiadosť o udelenie prechodného pobytu - POR (1,1 MB)</a></td>
+                <td class="zaldomenie"><a href="/?pobyt-cudzinca&amp;subor=540979"><img src="/swift_data/source/ikony/pdf.gif" alt="dokument"
+                                                                           width="16" height="16"></a></td>
+            </tr><tr>
+                <td><a href="/?pobyt-cudzinca&amp;subor=540980">Žiadosť o udelenie prechodného pobytu - ESP (1,1 MB)</a></td>
+                <td class="zaldomenie"><a href="/?pobyt-cudzinca&amp;subor=540980"><img src="/swift_data/source/ikony/pdf.gif" alt="dokument"
+                                                                           width="16" height="16"></a></td>
+            </tr><tr>
+                <td><a href="/?pobyt-cudzinca&amp;subor=540978">Žiadosť o udelenie prechodného pobyti - ENG (1,2 MB)</a></td>
+                <td class="zaldomenie"><a href="/?pobyt-cudzinca&amp;subor=540978"><img src="/swift_data/source/ikony/pdf.gif" alt="dokument"
+                                                                           width="16" height="16"></a></td>
+            </tr><tr>
+                <td colspan="2" style="border: 0">&nbsp;</td>
+            </tr>
+    </table>
+</div>
+<div class="news04">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="minv-oznamy app-whitespace-highlight">
+        <div class="govuk-width-container">
+            <h2 class="govuk-heading-l mg-0">Dôležité oznamy</h2>
+            <div class="list">
+&nbsp;
+&nbsp;
+            </div>
+        </div>
+    </div>
+
+    <div class="minv-odkazy app-whitespace-highlight">
+        <div class="govuk-width-container">
+            <h2 class="govuk-heading-l mg-0">Dôležité informácie</h2>
+            <div class="list">
+                <a href="/?transparentne-vnutro" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/transparentne-vnutro.jpg" width="148" height="148" alt="">
+                    <span>Transparentné vnútro</span></a>
+                <a href="https://stansapolicajtom.sk" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/stan-sa-policajtom-2.jpg" width="148" height="148" alt="">
+                    <span>Staň sa policajtom</span></a>
+                <a href="https://portal.minv.sk/" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/e-sluzby.jpg" width="148" height="148" alt="">
+                    <span>E-služby MV SR</span></a>
+                <a href="/?vestnik-vlady-sr" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/vestnik-vlady.jpg" width="148" height="148" alt="">
+                    <span>Vestník vlády SR</span></a>
+                <a href="/?obchodsludmi" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/obchodovanie-s-ludmi.jpg" width="148" height="148" alt="">
+                    <span>Obchodovanie s ľuďmi</span></a>
+                <a href="/?vizova-info-typy-viz-1" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/cudzinci.jpg" width="148" height="148" alt="">
+                    <span>Cudzinci</span></a>
+                <a href="/?miestna_statna_sprava" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/miestna-statna-sprava.jpg" width="148" height="148" alt="">
+                    <span>Okresné úrady / Klientske centrá</span></a>
+                <a href="https://www.slovensko.sk/" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/slovensko-sk.jpg" width="148" height="148" alt="">
+                    <span>Ústredný portál verejnej správy</span></a>
+               <a href="/?informacno-poradenske-pracovisko-OU-Bratislava" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/IPP-logo.jpg" width="148" height="148" alt="">
+                    <span>IPP</span></a>
+               <a href="/?makke-ciele-ochrana-narodny-projekt" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/logo-makke-ciele.jpg" width="148" height="148" alt="">
+                    <span>Ochrana mäkkých cieľov</span></a>
+                <a href="/?ees-system-vstup-vystup" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/vstup_vystup.jpg" width="148" height="148" alt="">
+                    <span>Entry/Exit System</span></a>
+                <a href="/?tlacove-spravy&sprava=call-centrum-mv-sr-informacny-kanal-na-komunikaciu-so-statnou-spravou-od-1-januara-2014" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/call-centrum.jpg" width="148" height="148" alt="">
+                    <span>Call centrum MV SR</span></a>
+                <a href="/?objednavky-mvsr" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/objednavky.jpg" width="148" height="148" alt="">
+                    <span>Objednávky</span></a>
+                <a href="/?faktury-mvsr" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/faktury.jpg" width="148" height="148" alt="">
+                    <span>Faktúry</span></a>
+                <a href="https://www.eks.sk/" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/eks.jpg" width="148" height="148" alt="">
+                    <span>E-trhovisko</span></a>
+                <a href="/?referendum" class="govuk-link">
+                    <img src="/swift_data/source/images/2024/referendum-2026.jpg" width="148" height="148" alt="">
+                    <span>Referendum 2026</span></a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="govuk-footer">
+        <div class="govuk-width-container">
+            <div class="govuk-footer__navigation">
+                <div class="minv-footer-1 govuk-footer__section govuk-grid-column-one-third">
+                    <h2 class="govuk-footer__heading govuk-heading-m">KONTAKT</h2>
+                    <ul class="govuk-footer__list">
+                        <li class="govuk-footer__list-item">
+                            Ministerstvo vnútra SR<br>
+                            Pribinova 2<br>
+                            812 72 Bratislava<br>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            Telefón: +421 2 5094 1111<br>
+                            Fax: +421 2 5094 4397<br>
+                            E-mail: <span class="minv-email">public@minv<b>.slovensko</b>.sk</span>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            Call centrum:<br>
+                            Telefón: 0800 222 222<br>
+                            Nahlásenie problému:<br><a class="govuk-footer__link" href="https://portal.minv.sk/wps/portal/!ut/p/a1/pZPLUoMwFIafxQdwchKSEJZcKvdShNbKxmGmtqItdGzHhU9vaF1IMwadhlVmvi85PycHVWiJqrb-aDb1senaetvvK_5EwZ0EUQwRUMGBe4uY5mYAQJgEHiUAvywbLnxsMci5ZWSBExPI6LevAQa-EIkBNp1RmzGKQbBLXwV0fslHfN8c-pmb4FN5k9iyZT464gO_zi__66vAMP_UIZCXIolyIWQ8UO5XgKEflLKp8R0LrHxqgI8VXwGGfoZleUaa3celZ_S_5-y7vh1QM-kLFgRCzwk800oBQq71haHWP-GQJyZl84gRNf-orxR4lS-BkfmJ_vDAyXvqphtU7evjy23Trju0nHWrun2umnrVHY5Nseg-m9W226EHVGkP7B-0FugTnwBdS06AbubHpu4MYEJC7BQQ-SK3wPZDbpKJI1PjESBUr1D7ru2cb4wAgqDi8Ib2u_mPtfxM1kXYyO-V2jdfXJyCPg!!/dl5/d5/L2dBISEvZ0FBIS9nQSEh/" target=_blank">Kontaktný formulár Call Centra MV SR</a><br>
+                            PO, UT, ŠT, PIA: 8.00 - 16.00<br>
+                            STREDA: 8.00 - 17.00
+                        </li>
+                    </ul>
+                </div>
+                <div class="minv-footer-2 govuk-footer__section govuk-grid-column-one-third">
+                    <h2 class="govuk-footer__heading govuk-heading-m">SEKCIE MV SR</h2>
+                    <ul class="govuk-footer__list">
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?ministerstvo-vnutra">
+                                Ministerstvo vnútra SR
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?uvod-komisia-pre-volby">
+                                Štátna komisia pre volby
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?miestna_statna_sprava">
+                                Okresné úrady/Klientske centrá
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?europske_programy">
+                                Európske programy
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?policia">
+                                Policajný zbor
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?azyl-migracia">
+                                Azyl a migrácia
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?sekcia-verejnej-spravy">
+                                Verejná správa
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?hasici-zachranari">
+                                Hasiči a záchranári
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?Organizacia">
+                                Krízové riadenie
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?schengen-uvod">
+                                Schengen
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?ros">
+                                Rozvoj občianskej spoločnosti
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="https://www.scpolicie.sk/">
+                                Športové centrum polície
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="minv-footer-3 govuk-footer__section govuk-grid-column-one-third">
+                    <h2 class="govuk-footer__heading govuk-heading-m">DÔLEŽITÉ ODKAZY</h2>
+                    <ul class="govuk-footer__list">
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="https://creators.spotify.com/pod/show/mv-sr">
+                                Podcast
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="https://stansapolicajtom.sk">
+                                Stan sa policajtom
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="https://portal.minv.sk/">
+                                E-služby MV SR
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?vestnik-vlady-sr">
+                                Vestník vlády SR
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?obchodsludmi">
+                                Obchodovanie s ľuďmi
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?vizova-info-typy-viz-1">
+                                Cudzinci
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?miestna_statna_sprava">
+                                Miestna štátna správa
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="/?eso-efektivna-spolahliva-otvorena-verejna-sprava">
+                                Vládny program ESO
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="https://www.minv.sk/?tlacove-spravy&sprava=call-centrum-mv-sr-informacny-kanal-na-komunikaciu-so-statnou-spravou-od-1-januara-2014">
+                                Call centrum MV SR
+                            </a>
+                        </li>
+                        <li class="govuk-footer__list-item">
+                            <a class="govuk-footer__link" href="https://www.eks.sk/">
+                                E-trhovisko
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="govuk-footer__section-break">
+            <div class="govuk-footer__meta">
+                <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        <span class="govuk-footer__licence-description">
+            &copy; 2026 Ministerstvo vnútra SR. Web od <a href="https://www.elet-systems.sk/" class="govuk-footer__link">ELET systems</a>. <a
+                href="/?mapa-sidla-mvsr-eu" class="govuk-footer__link">Mapa sídla</a> | <a href="/?vyhlasenie-o-pristupnosti" class="govuk-footer__link">Vyhlásenie o prístupnosti</a> | <a
+                href="/swift_data/source/mvsr/skis_mv_sr/data_protection_ochrana_osobnych_udajov/gdpr-cookies.pdf" class="govuk-footer__link">Vyhlásenie o cookies (PDF, 398 kB)</a>
+        </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="/swift_data/source/js/jquery3.min.js"></script>
+<script src="/2024/js/app.min.js?v=2025-04"></script>
+
+
+<script type="module">
+    import {initAll} from '/vendor/id-sk/frontend/4/idsk-frontend.min.js'
+
+    initAll()
+</script>
+
+</body>
+</html>
